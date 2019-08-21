@@ -1334,6 +1334,16 @@ a:hover {
   }
 }
 
+//EDGE FIX
+@supports (-ms-ime-align: auto) {
+  .new-basket-btn {
+    padding-left: 10px;
+    span {
+      margin-right: 10px;
+    }
+  }
+}
+
 
 
 
