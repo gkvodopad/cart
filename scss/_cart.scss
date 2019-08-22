@@ -174,11 +174,7 @@ a:hover {
 .header-head__items {
   display: flex;
   justify-content: space-between;
-  //
-  //@include max-w(998) {
-  //  padding-left: 41px;
-  //  padding-right: 39px;
-  //}
+
   @include max-w(767) {
     padding-left: 15px;
     padding-right: 15px;
@@ -219,9 +215,7 @@ a:hover {
   padding-top: 30px;
 }
 .back-shop-wrap {
-  //@include max-w(998) {
-  //  padding-left: 41px;
-  //}
+
   @include max-w(767) {
     padding-left: 15px;
     padding-right: 15px;
@@ -268,9 +262,7 @@ a:hover {
   @include max-w(1250) {
     margin-right: auto;
   }
-  //@include max-w(988) {
-  //  padding-left: 41px;
-  //}
+
   @include max-w(767) {
     padding-left: 15px;
   }
@@ -311,6 +303,18 @@ a:hover {
       display: block;
       text-decoration: none;
       @include medium-gray-text;
+      position: relative;
+      overflow: hidden;
+      &:after {
+        content: '';
+        width: 20%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 110px;
+        top: 0;
+        background: linear-gradient(270deg, #F3F3F3 0%, rgba(255, 255, 255, 0) 92.86%);
+      }
 
     }
   }
@@ -484,6 +488,7 @@ a:hover {
     width: 1px;
     overflow: hidden;
     position: absolute;
+    z-index: -99;
 
     &:disabled + .check__box {
       border-color: $brdr-color;
@@ -493,7 +498,7 @@ a:hover {
       background-image: url("../images/check.svg");
       background-repeat: no-repeat;
       background-position: center;
-      border-color: $brdr-color;
+      border-color: $wav-color;
     }
   }
   &__box {
@@ -717,6 +722,12 @@ a:hover {
     }
     &:after {
       transform: rotate(45deg);
+    }
+    &:hover {
+      &:before,
+      &:after {
+        background: $red-color;
+      }
     }
   }
   &_count {
@@ -1138,6 +1149,10 @@ a:hover {
   display: flex;
   position: relative;
 
+  &__title {
+    font-size: 15px;
+  }
+
   &__input-wrap {
     display: flex;
     align-items: center;
@@ -1319,6 +1334,26 @@ a:hover {
 .total__conf {
   display: flex;
   align-items: center;
+  .check {
+    width: 12px;
+    height: 12px;
+
+    &__input {
+      &:checked + .check__box {
+        background-image: url(../images/checksmall.svg);
+      }
+    }
+
+    &__box {
+      width: 12px;
+      height: 12px;
+      background-color: #767676;
+      background-image: url(../images/checksmall.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-color: #767676;
+    }
+  }
 }
 .total__conf-label {
   margin-left: 5px;
