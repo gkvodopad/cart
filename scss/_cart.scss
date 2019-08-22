@@ -297,8 +297,15 @@ a:hover {
     &:hover {
       border-color: #B7C63A;
       cursor: pointer;
+      .baskets-list__count {
+        background: #A0A0A0;
+      }
+      .baskets-list__link {
+        color: $text-color;
+        text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+      }
     }
-    a {
+    .baskets-list__link {
       height: 22px;
       display: block;
       text-decoration: none;
@@ -332,8 +339,15 @@ a:hover {
   &__close {
     height: 18px;
     width: 18px;
-    margin-left: 5px;
+    margin-left: 12px;
     position: relative;
+
+    &:hover {
+      &:before,
+      &:after {
+        background: $text-color;
+      }
+    }
 
     &:before,
     &:after {
@@ -353,11 +367,21 @@ a:hover {
     }
   }
   &__edit {
-    background: url("../images/pen.svg");
-    width: 15px;
-    height: 15px;
+    //background: url("../images/pen.svg");
+    width: 16px;
+    height: 16px;
     display: block;
-    margin-left: 5px;
+    margin-left: 9px;
+    margin-top: -2px;
+    svg {
+      vertical-align: top;
+    }
+    &:hover {
+      svg path {
+        fill: $text-color;
+      }
+    }
+
   }
 }
 
@@ -488,7 +512,7 @@ a:hover {
     width: 1px;
     overflow: hidden;
     position: absolute;
-    z-index: -99;
+    left: -9999px;
 
     &:disabled + .check__box {
       border-color: $brdr-color;
@@ -607,6 +631,9 @@ a:hover {
   }
 
   &__item {
+    font-size: $text-size;
+    color: #767676;
+
     &:nth-child(1) {
       width: 12%;
       padding-left: 40px;
@@ -1216,12 +1243,28 @@ a:hover {
     li div:nth-child(1) {
       width: 87px;
 
+      &:hover {
+        cursor: pointer;
+        .baskets-list__close {
+          &:before,&:after {
+            background: $red-color;
+          }
+        }
+        .total__info_text {
+          color: $red-color;
+        }
+        ~ .total__info_right-col .total__info_text {
+          color: $red-color;
+        }
+      }
+
       .baskets-list__close {
         margin-left: 0;
         margin-right: 18px;
         margin-top: 5px;
         width: 12px;
         height: 12px;
+
         &:before,&:after {
           height: 12px;
           top: 1px;
