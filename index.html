@@ -19,6 +19,64 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=d62c1a4b-3385-4467-b170-1e11a5f49c07&lang=ru_RU" type="text/javascript">
+	</script>
+	<script>
+    ymaps.ready(function () {
+      var myMap = new ymaps.Map('map', {
+            center: [55.751574, 37.573856],
+            zoom: 9
+          }, {
+            searchControlProvider: 'yandex#search'
+          }),
+
+          // Создаём макет содержимого.
+          MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+              '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+          ),
+
+          myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+          }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'images/geo.svg',
+            // Размеры метки.
+            iconImageSize: [22, 22],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -38]
+          }),
+
+          myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
+            hintContent: 'Собственный значок метки с контентом',
+            balloonContent: 'А эта — новогодняя',
+            iconContent: '12'
+          }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#imageWithContent',
+            // Своё изображение иконки метки.
+            iconImageHref: 'images/geo.svg',
+            // Размеры метки.
+            iconImageSize: [22, 22],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-24, -24],
+            // Смещение слоя с содержимым относительно слоя с картинкой.
+            iconContentOffset: [15, 15],
+            // Макет содержимого.
+            iconContentLayout: MyIconContentLayout
+          });
+
+      myMap.geoObjects
+          .add(myPlacemark)
+          .add(myPlacemarkWithContent);
+    });
+	</script>
 </head>
 <body>
 
@@ -290,20 +348,35 @@
 						<h3 class="ship-pay__title">Способ доставки и оплаты</h3>
 						<div class="type-ship">
 							<div class="type-ship__choose">
-								<button class="type-ship__choose_btn ship-active">Доставка</button>
-								<button class="type-ship__choose_btn">Самовывоз</button>
+								<button class="type-ship__choose_btn ship-active delivery-js">Доставка</button>
+								<button class="type-ship__choose_btn pickup-js">Самовывоз</button>
 							</div>
-							<div class="type-ship__input-wrap">
-								<label for="ship-input">Адрес</label>
-								<input id="ship-input" placeholder="Комендантский проспект 172, кв 94" type="text">
+							<div class="type-ship-delivery-wrap">
+								<div class="type-ship__input-wrap">
+									<label for="ship-input">Адрес</label>
+									<input id="ship-input" placeholder="Комендантский проспект 172, кв 94" type="text">
+								</div>
+								<div class="type-ship__check">
+									<label class="check">
+										<input id="type-ship-check" type="checkbox" class="check__input">
+										<span class="check__box"></span>
+									</label>
+									<label class="type-ship__check_label" for="type-ship-check">Подъем 350 рублей <i class="ico m-ico-brdr m-grey-ico tltp-hldr ml-2">?</i>
+									</label>
+								</div>
 							</div>
-							<div class="type-ship__check">
-								<label class="check">
-									<input id="type-ship-check" type="checkbox" class="check__input">
-									<span class="check__box"></span>
-								</label>
-								<label class="type-ship__check_label" for="type-ship-check">Подъем 350 рублей <i class="ico m-ico-brdr m-grey-ico tltp-hldr ml-2">?</i>
-								</label>
+							<div class="type-ship-pickup-wrap">
+								<div class="type-ship-pickup">
+									<div class="d-flex align-items-center">
+										<div class="type-ship-pickup__title">Магазин</div>
+										<div class="type-ship-pickup__input-wrap">
+											<select>
+												<option>м. Комендантский проспект, пр</option>
+											</select>
+										</div>
+									</div>
+									<div id="map" class="type-ship-pickup__map"></div>
+								</div>
 							</div>
 							<hr class="brdr-mobile">
 						</div>
@@ -419,7 +492,8 @@
 
 
 
-
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>

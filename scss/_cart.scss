@@ -114,9 +114,6 @@ a:hover {
 @mixin small-link-text {
   color: $link-color;
   font-size: $text-size;
-  &:hover {
-    color: $link-color;
-  }
 }
 
 @mixin border-corner {
@@ -150,9 +147,38 @@ a:hover {
   }
 }
 
-@mixin min-w($width) {
-  @media (min-width: $width + 'px') {
-    @content
+@mixin input-state {
+  input, textarea, select {
+    color: $text-color;
+    &:hover {
+      border-color: rgba(39, 96, 117, 0.5);
+    }
+    &:active {
+      border-color: #276075;
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      border-color: #276075;
+    }
+  }
+  .error {
+    border-color: $red-color;
+    background-image: url("../images/error.svg"), url("../images/error2.svg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    &:hover {
+      border-color: $red-color;
+    }
+  }
+  .success {
+    border-color: #B7C63A;
+    background-image: url("../images/success.svg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    &:hover {
+      border-color: #B7C63A;
+    }
   }
 }
 
@@ -166,7 +192,7 @@ a:hover {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
 
   @include max-w(767) {
-    padding-top: 28px;
+    padding-top: 24px;
     padding-bottom: 14px;
   }
 }
@@ -189,6 +215,14 @@ a:hover {
 
 .header-contact {
   display: flex;
+
+  @include max-w(767) {
+    &:last-child {
+      .header-contact__text {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .header-contact__text {
@@ -206,6 +240,7 @@ a:hover {
   font-size: 14px;
   text-decoration: underline;
   &:hover {
+    color: $link-color;
     text-decoration: underline;
   }
 }
@@ -213,6 +248,9 @@ a:hover {
 // header-bot
 .header-bot {
   padding-top: 30px;
+  @include max-w(767) {
+    padding-top: 21px;
+  }
 }
 .back-shop-wrap {
 
@@ -230,6 +268,9 @@ a:hover {
     margin-right: 10px;
     font-size: 18px;
   }
+  &:hover {
+    color: $red-color;
+  }
 }
 
 //MAIN
@@ -240,12 +281,10 @@ a:hover {
   span {
     color: #767676;
   }
-  //@include max-w(988) {
-  //  padding-left: 41px;
-  //}
   @include max-w(767) {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 16px;
   }
 }
 
@@ -302,7 +341,6 @@ a:hover {
       }
       .baskets-list__link {
         color: $text-color;
-        text-shadow: 0 0 .65px #333, 0 0 .65px #333;
       }
     }
     .baskets-list__link {
@@ -339,7 +377,7 @@ a:hover {
   &__close {
     height: 18px;
     width: 18px;
-    margin-left: 12px;
+    margin-left: 10px;
     position: relative;
 
     &:hover {
@@ -356,7 +394,7 @@ a:hover {
       left: 5px;
       width: 2px;
       height: 18px;
-      background: $icons-color;
+      background: #A0A0A0;
       border-radius: 3px;
     }
     &:before {
@@ -367,11 +405,10 @@ a:hover {
     }
   }
   &__edit {
-    //background: url("../images/pen.svg");
     width: 16px;
     height: 16px;
     display: block;
-    margin-left: 9px;
+    margin-left: 10px;
     margin-top: -2px;
     svg {
       vertical-align: top;
@@ -499,6 +536,8 @@ a:hover {
     }
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 18px;
   }
 }
 
@@ -541,10 +580,14 @@ a:hover {
 }
 
 .radio {
-  width: 16px;
   height: 16px;
   margin: 0;
-  margin-right: 4px;
+  display: flex;
+
+  label {
+    margin-left: 25px;
+    line-height: 16px;
+  }
 
   &__input {
     height: 1px;
@@ -558,6 +601,9 @@ a:hover {
     }
     &:checked + .radio__btn {
       border: 4px solid $wav-color;
+    }
+    &:checked ~ label {
+      color: $text-color;
     }
   }
   &__btn {
@@ -609,6 +655,9 @@ a:hover {
 .basket {
   width: 100%;
   padding-top: 25px;
+  @include max-w(767) {
+    padding-top: 0;
+  }
 }
 
 .basket-table {
@@ -959,7 +1008,12 @@ a:hover {
   &__input-wrap {
     margin-bottom: 10px;
     display: flex;
-
+    @include max-w(767) {
+      margin-bottom: 13px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
     label {
       width: 102px;
       margin-right: 21px;
@@ -967,10 +1021,9 @@ a:hover {
       @include medium-black-text;
       align-self: center;
     }
-
+    @include input-state;
     &_input {
       padding-left: 9px;
-      color: rgba(155, 155, 155, 0.8);
       font-size: 15px;
       height: 30px;
       flex-grow: 1;
@@ -1025,6 +1078,10 @@ a:hover {
     }
   }
 
+  @include max-w(1247) {
+    padding-right: 28px;
+  }
+
   @include max-w(998) {
     padding-right: 0;
     padding-bottom: 50px;
@@ -1046,7 +1103,7 @@ a:hover {
   }
   @include max-w(767) {
     padding-bottom: 23px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 }
 // SHIP PAY
@@ -1069,8 +1126,15 @@ a:hover {
       margin-left: auto;
       margin-right: auto;
     }
+    @include max-w(767) {
+      margin-bottom: 20px;
+    }
   }
 
+  @include max-w(1247) {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
   @include max-w(998) {
     width: auto;
     padding-top: 22px;
@@ -1103,6 +1167,65 @@ a:hover {
 .type-ship {
   padding-bottom: 69px;
   position: relative;
+  @include input-state;
+
+  &-pickup-wrap {
+    display: none;
+  }
+  &-pickup {
+    &__title {
+      @include medium-black-text;
+      margin-right: 12px;
+    }
+    &__input-wrap {
+      overflow: hidden;
+      width: 100%;
+      height: 30px;
+      display: block;
+      text-decoration: none;
+      @include medium-gray-text;
+      position: relative;
+      &:before {
+        content: '';
+        background-image: url("../images/arrowselect.svg");
+        background-repeat: no-repeat;
+        background-position: left 12px;
+        background-color: #fff;
+        position: absolute;
+        right: 1px;
+        top: 2px;
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+        color: $wav-color;
+        pointer-events: none;
+        font-weight: bold;
+      }
+      &:after {
+        content: '';
+        width: 20%;
+        height: 60%;
+        display: block;
+        position: absolute;
+        left: 200px;
+        top: 10%;
+        background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 92.86%);
+      }
+      select {
+        padding-left: 19px;
+        width: 100%;
+        height: 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+    }
+    &__map {
+      width: 100%;
+      height: 154px;
+      margin-top: 11px;
+    }
+  }
 
   &__choose {
     display: flex;
@@ -1163,6 +1286,9 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  @include max-w(767) {
+    padding-bottom: 30px;
+  }
 }
 .ship-active {
   border-radius: 3px 0px 0px 3px;
@@ -1183,11 +1309,13 @@ a:hover {
   &__input-wrap {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     label {
       margin-bottom: 0;
       cursor: pointer;
+      color: #767676;
+      font-size: 15px;
     }
   }
   @include max-w(998) {
@@ -1195,6 +1323,9 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     border-top: none;
+  }
+  @include max-w(767) {
+    padding-top: 31px;
   }
 }
 .type-pay-wrap {
@@ -1225,20 +1356,29 @@ a:hover {
 //TOTAL
 .total {
   padding-top: 10px;
-  padding-left: 19px;
+  padding-left: 50px;
   width: 28%;
+  @include input-state;
 
   &__title {
     @include small-title-black;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    @include max-w(767) {
+      margin-bottom: 20px;
+    }
   }
   &__info {
+    margin-bottom: 20px;
     ul li {
       list-style: none;
     }
     ul li {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 3px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
     li div:nth-child(1) {
       width: 87px;
@@ -1260,10 +1400,11 @@ a:hover {
 
       .baskets-list__close {
         margin-left: 0;
-        margin-right: 18px;
-        margin-top: 5px;
+        margin-right: 11px;
+        margin-top: 3px;
         width: 12px;
         height: 12px;
+        display: block;
 
         &:before,&:after {
           height: 12px;
@@ -1286,7 +1427,7 @@ a:hover {
   }
   &__promocode {
     height: 30px;
-    margin-bottom: 28px;
+    margin-bottom: 16px;
     display: flex;
     &_input {
       margin-right: 5px;
@@ -1336,6 +1477,10 @@ a:hover {
     }
   }
 
+  @include max-w(1247) {
+    padding-left: 28px;
+  }
+
   @include max-w(998) {
     width: 100%;
     padding-left: 0;
@@ -1363,14 +1508,11 @@ a:hover {
         margin-bottom: 6px;
       }
     }
-    &__conf {
-      order: 4;
-    }
     &__promocode {
-      order: 2;
+      margin-bottom: 16px;
     }
-    &__red-btn {
-      order: 3;
+    &__price {
+      margin-bottom: 23px;
     }
   }
 }
@@ -1390,11 +1532,11 @@ a:hover {
     &__box {
       width: 12px;
       height: 12px;
-      background-color: #767676;
+      background-color: #A0A0A0;
       background-image: url(../images/checksmall.svg);
       background-repeat: no-repeat;
       background-position: center;
-      border-color: #767676;
+      border-color: #A0A0A0;
     }
   }
 }
@@ -1402,6 +1544,8 @@ a:hover {
   margin-left: 5px;
   cursor: pointer;
   margin-bottom: 0;
+  font-size: 10px;
+  color: #A0A0A0;
 }
 
 
@@ -1439,8 +1583,8 @@ a:hover {
 .is-full-width { width: 100%; }
 .btn { cursor: pointer; text-align: center; display: inline-block; height: 35px; line-height: 35px; font-size: 14px; color: #ffffff; border-radius: 3px; background: #276075; -webkit-transition-property: background; -o-transition-property: background; transition-property: background; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; text-decoration: none; border: none; padding: 0 15px; }
 .btn:hover { background: #468AA3; color: #ffffff; }
-.m-red-btn { background: #CF4238; }
-.m-red-btn:hover { background: #ab3229; }
+.checkout-red-btn { background: #CF4238;opacity:0.8;transition: all 0.3s ease;@include max-w(767){opacity: 1;}}
+.checkout-red-btn:hover {  opacity: 1; background: #CF4238; }
 .h-44 {
   height: 44px;
 }
