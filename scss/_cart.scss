@@ -55,6 +55,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 //MIXINS
 @mixin small-wav-text {
   color: $wav-color;
@@ -150,6 +151,7 @@ a:hover {
 @mixin input-state {
   input, textarea, select {
     color: $text-color;
+    font-weight: normal;
     &:hover {
       border-color: rgba(39, 96, 117, 0.5);
     }
@@ -160,6 +162,9 @@ a:hover {
     &:focus {
       outline: none;
       border-color: #276075;
+    }
+    &::placeholder {
+      color: #A0A0A0;
     }
   }
   .error {
@@ -479,6 +484,20 @@ a:hover {
   font-weight: 500;
   padding: 0;
 
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    color: $text-color;
+    border-color: $text-color;
+
+    span {
+      &:before, &:after {
+        background: $text-color;
+      }
+    }
+  }
+
   span {
     height: 13px;
     width: 13px;
@@ -646,6 +665,15 @@ a:hover {
 
 .icon-basket-link {
   margin-right: 22px;
+
+  &:hover {
+    .excel svg path:first-child {
+      stroke: $text-color;
+    }
+    .print svg path {
+      stroke: $text-color;
+    }
+  }
 
   &:last-child {
     margin-right: 0;
@@ -1233,11 +1261,20 @@ a:hover {
   }
   &__choose_btn {
     background: transparent;
-    border-radius: 0px 3px 3px 0px;
     border: 1px solid #276075;
+    font-weight: normal;
     width: 50%;
     height: 30px;
     @include medium-wav-text;
+    &:focus {
+      outline: 0;
+    }
+    &:first-child {
+      border-radius: 3px 0 0 3px;
+    }
+    &:nth-child(2) {
+      border-radius: 0 3px 3px 0;
+    }
   }
   &__input-wrap {
     display: flex;
@@ -1260,6 +1297,10 @@ a:hover {
       @include medium-black-text;
       border-radius: 3px;
       border: 1px solid #E5E5E5;
+      &::placeholder {
+        color: $text-color;
+      }
+
 
       @include max-w(998) {
         margin-left: 0;
@@ -1291,7 +1332,6 @@ a:hover {
   }
 }
 .ship-active {
-  border-radius: 3px 0px 0px 3px;
   background: $wav-color;
   color: #fff;
 }
