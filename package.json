@@ -1,0 +1,16 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sobolev-vodopad/cart.git",
+  "author": "Anton <a.d.sobolev@vodopad.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "normalize-scss": "^7.0.1"
+  },
+  "scripts": {
+    "watch": "node-sass -w scss/main.scss css/main.min.css --include-path node_modules/normalize-scss/sass --output-style compressed",
+    "build": "node-sass scss/main.scss css/main.min.css --include-path node_modules/normalize-scss/sass --output-style compressed"
+  }
+}
