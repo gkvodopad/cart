@@ -356,13 +356,6 @@ a:hover {
     &:hover {
       border-color: #B7C63A;
       cursor: pointer;
-      .baskets-list__count {
-        background: #A0A0A0;
-      }
-      .baskets-list__link {
-        color: $text-color;
-        font-weight: 500;
-      }
     }
     .baskets-list__link {
       height: 22px;
@@ -396,6 +389,9 @@ a:hover {
     a {
       color: $text-color;
       font-weight: 500;
+    }
+    .baskets-list__count{
+      background: #A0A0A0;
     }
   }
   &__count {
