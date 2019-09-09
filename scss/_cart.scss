@@ -1102,6 +1102,9 @@ a:hover {
       resize: none;
       border-radius: 3px;
       border: 1px solid #E5E5E5;
+      padding-left: 9px;
+      font-size: 15px;
+      flex-grow: 1;
     }
 
     &:nth-child(4),
