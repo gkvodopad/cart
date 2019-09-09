@@ -472,9 +472,10 @@ a:hover {
       &:before, &:after {
         display: block;
         content: '';
-        background: rgba(30, 95, 115, 0.8);
+        background: #276075;;
+        border-radius: 2px;
         width: 3px;
-        height: 10px;
+        height: 11px;
         position: absolute;
       }
       &:before {
@@ -483,7 +484,7 @@ a:hover {
       }
       &:after {
         transform: rotate(45deg);
-        top: 40%;
+        top: 38%;
       }
     }
   }
