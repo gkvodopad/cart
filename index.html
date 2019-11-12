@@ -356,7 +356,7 @@
 							</div>
 							<div class="footer-form__input-wrap">
 								<label for="form-phone">Телефон</label>
-								<input class="footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" type="text" placeholder="+7(__)__-__">
+								<input class="footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" placeholder="+7 (___) ___-___" type="text">
 							</div>
 							<div class="footer-form__input-wrap">
 								<label for="form-card">Карта клиента (если есть)</label>
@@ -386,7 +386,11 @@
 										<input id="type-ship-check" type="checkbox" class="check__input">
 										<span class="check__box"></span>
 									</label>
-									<label class="type-ship__check_label" for="type-ship-check">Подъем 350 рублей <i class="ico m-ico-brdr m-grey-ico tltp-hldr ml-2">?</i>
+									<label class="type-ship__check_label" for="type-ship-check">Подъем 350 рублей <i class="ico m-ico-brdr m-grey-ico tltp-hldr ml-2"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.87988 9.70117C7.87988 9.22493 7.93896 8.84538 8.05713 8.5625C8.17529 8.27962 8.40804 7.96989 8.75537 7.6333C9.10628 7.29313 9.32829 7.05143 9.42139 6.9082C9.56462 6.68978 9.63623 6.45345 9.63623 6.19922C9.63623 5.86263 9.55208 5.60661 9.38379 5.43115C9.21908 5.25212 8.97559 5.1626 8.65332 5.1626C8.34538 5.1626 8.09652 5.25033 7.90674 5.42578C7.72054 5.59766 7.62744 5.83219 7.62744 6.12939H6.32227C6.32943 5.49561 6.54427 4.9943 6.9668 4.62549C7.3929 4.25667 7.95508 4.07227 8.65332 4.07227C9.37305 4.07227 9.93343 4.25488 10.3345 4.62012C10.7391 4.98535 10.9414 5.49561 10.9414 6.15088C10.9414 6.73454 10.6693 7.30924 10.125 7.875L9.46436 8.5249C9.22803 8.79346 9.10628 9.18555 9.09912 9.70117H7.87988ZM7.78857 11.3716C7.78857 11.1603 7.85482 10.9902 7.9873 10.8613C8.11979 10.7288 8.29883 10.6626 8.52441 10.6626C8.75358 10.6626 8.93441 10.7306 9.06689 10.8667C9.19938 10.9992 9.26562 11.1675 9.26562 11.3716C9.26562 11.5685 9.20117 11.7332 9.07227 11.8657C8.94336 11.9982 8.76074 12.0645 8.52441 12.0645C8.28809 12.0645 8.10547 11.9982 7.97656 11.8657C7.85124 11.7332 7.78857 11.5685 7.78857 11.3716Z" fill="#A0A0A0"/>
+<path d="M16.5 8C16.5 12.114 12.9473 15.5 8.5 15.5C4.05273 15.5 0.5 12.114 0.5 8C0.5 3.88599 4.05273 0.5 8.5 0.5C12.9473 0.5 16.5 3.88599 16.5 8Z" stroke="#A0A0A0"/>
+</svg>
+</i>
 									</label>
 								</div>
 							</div>
@@ -472,6 +476,12 @@
 								</li>
 							</ul>
 						</div>
+						<div class="total__promocode__completed" style="display: none;">
+							<div class="d-flex align-items-end">
+								<div class="prdct-prmcd-prc">Скидка по промокоду</div>
+								<div class="prmcd__price_final">- 23 400 ₽</div>
+							</div>
+						</div>
 						<div class="total__promocode">
 							<div class="total__promocode_input">
 								<input  type="text" placeholder="Промокод">
@@ -493,7 +503,7 @@
 								<input id="total-conf" type="checkbox" class="conf__check__input">
 								<span class="conf__check__box"></span>
 							</label>
-							<label for="total-conf" class="total__conf-label">Соглашение о конфиденциальности</label>
+							<label for="total-conf" class="total__conf-label"><a href="https://vodopad.ru/info/about.php"></a>Соглашение о конфиденциальности</label>
 						</div>
 					</div>
 				</div>
@@ -501,8 +511,47 @@
 		</div>
 		</div>
 	</footer>
+	<div class="overlay"></div>
+	<div class="modals">
+		<div class="container">
+			<div class="row justify-content-center">
+				<form action="" class="frm frm-delete">
+
+					<div class="close">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4L4 12" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M4 4L12 12" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
+					<div class="frm-itms">
+						<h3>Подтверждение удаления</h3>
+						<p>Вы точно хотите удалить корзину <b>«Приморский 173» </b>со всеми её товарами?</p>
+					</div>
+					<div class="frm-acts">
+						<button class="btn-act-1" type="submit">Удалить</button>
+						<button class="btn-1" type="submit">Отмена</button>
+					</div>
+				</form>
+
+				<form action="" class="frm frm-error">
+					<div class="close">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4L4 12" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M4 4L12 12" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
+					<div class="frm-itms">
+						<h3>Упс! Что-то пошло не так.
+						<br>Ваш заказ не был отправлен.</h3>
+						<p>Попробуйте оформить заказ через 3 минуты <br> или позвоните по телефону: <a href="tel:8 812 600-50-20">8 812 600-50-20</a> </p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
