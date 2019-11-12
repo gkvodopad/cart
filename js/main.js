@@ -14,19 +14,5 @@ window.onload = function() {
     $('.type-ship-pickup-wrap').css({"display":"block"});
   });
 
-  $('.baskets-list__close').on('click', function () {
-      $('.frm.frm-delete').addClass('act');
-      $('.overlay').addClass('act');
-  });
-
-   $('.frm-delete .close').on('click', function () {
-      $('.frm.frm-delete').removeClass('act');
-      $('.overlay').removeClass('act');
-  });
- $('.total__promocode_btn').on('click', function () {
-      $('.total__promocode').css("display", "none");
-
-  });
- $("#form-phone").mask("+7(999)999-99-99");
 
 };
