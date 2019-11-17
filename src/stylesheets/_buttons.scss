@@ -1,0 +1,19 @@
+.btn-primary {
+  @include button-variant(rgba($primary, 0.8), rgba($primary, 0.8), $primary, $primary, $primary, $primary);
+}
+
+.btn-success {
+  @include button-variant(rgba($success, 0.8), rgba($success, 0.8), $success, $success, $success, $success);
+}
+
+.btn-secondary {
+  @include button-variant(rgba($secondary, 0.8), rgba($secondary, 0.8), $secondary, $secondary, $secondary, $secondary);
+}
+
+.btn-outline-secondary {
+  @include button-outline-variant($secondary, color-yiq($secondary), $secondary, $secondary);
+}
+
+.btn-260px {
+  min-width: 260px;
+}

@@ -467,18 +467,14 @@
 }
 
 .basket-controls__btn {
-  background: #E5E5E5;
-  border-radius: 3px;
-  border: none;
-  //@include small-white-text;
   margin-right: 5px;
-  height: 22px;
 }
 
 .this-basket-link {
-  //@include small-link-text;
+  @include small-link-text;
   text-decoration: underline;
   margin-right: 27px;
+
   &:hover {
     text-decoration: underline;
     color: var(--red);
@@ -1075,25 +1071,7 @@
   }
 
   &__choose {
-    display: flex;
     margin-bottom: 16px;
-  }
-  &__choose_btn {
-    background: transparent;
-    border: 1px solid #276075;
-    font-weight: normal;
-    width: 50%;
-    height: 30px;
-    //@include medium-wav-text;
-    &:focus {
-      outline: 0;
-    }
-    &:first-child {
-      border-radius: 3px 0 0 3px;
-    }
-    &:nth-child(2) {
-      border-radius: 0 3px 3px 0;
-    }
   }
   &__input-wrap {
     display: flex;
@@ -1455,14 +1433,6 @@
 .prdct-old-prc { font-size: 15px; line-height: 18px; text-decoration: line-through; color: #A0A0A0; }
 .btn.h-44 { line-height: 44px; font-size: 18px; }
 .is-full-width { width: 100%; }
-.btn { cursor: pointer; text-align: center; display: inline-block; height: 35px; line-height: 35px; font-size: 14px; color: #ffffff; border-radius: 3px; background: #276075; -webkit-transition-property: background; -o-transition-property: background; transition-property: background; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; text-decoration: none; border: none; padding: 0 15px; }
-.btn:hover { background: #468AA3; color: #ffffff; }
-.checkout-red-btn { background: #CF4238;opacity:0.8;transition: all 0.3s ease;
-  @include media-breakpoint-down('sm') {
-    opacity: 1;
-  }
-}
-.checkout-red-btn:hover {  opacity: 1; background: #CF4238; }
 .h-44 {
   height: 44px;
 }
