@@ -1,0 +1,30 @@
+{% from 'macros/helpers.html' import sprite %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    <link rel="stylesheet" href="css/app.css">
+    {% include "shared/app-icons.html" %}
+    {% block head %}{% endblock %}
+  </head>
+  <body class="page-body {{ bodyClass }}">
+    {% block header %}
+    {% include 'shared/header.html' %}
+    {% endblock %}
+    <div class="page-wrapper">
+      {% block content %}{% endblock %}
+    </div>
+    {% block footer %}
+    {% include "shared/footer.html" %}
+    {% endblock %}
+    {% block modals %}
+    {% endblock %}
+    {% block javascript %}
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+    {% endblock %}
+  </body>
+</html>
