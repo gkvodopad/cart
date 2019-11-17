@@ -21,7 +21,8 @@ const productionTask = function(cb) {
   fs.mkdirSync(PATH_CONFIG.dest)
 
   const tasks = getEnabledTasks('production')
-  const rev = TASK_CONFIG.production.rev ? 'rev': false
+  //const rev = TASK_CONFIG.production.rev ? 'rev': false
+  const rev = false
   const static = TASK_CONFIG.static ? 'static' : false
   const { prebuild, postbuild } = TASK_CONFIG.additionalTasks.production
 

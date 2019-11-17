@@ -25,7 +25,8 @@ module.exports = {
     development: {},
     production: {
       devtool: false,
-      uglifyJsPlugin: {},
+      // uglifyJsPlugin: {},
+      babiliJsPlugin: {},
       definePlugin: {
         'process.env': {
           'NODE_ENV': JSON.stringify('production')
@@ -35,6 +36,9 @@ module.exports = {
   },
 
   stylesheets: {
+    autoprefixer: {
+      browsers: ['last 10 versions']
+    },
     sass: {
       includePaths: [
         "./node_modules"
@@ -85,7 +89,7 @@ module.exports = {
   },
 
   production: {
-    rev: true
+    rev: false
   },
 
   additionalTasks: {

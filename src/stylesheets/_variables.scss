@@ -468,7 +468,7 @@ $input-font-size-lg:                    $input-btn-font-size-lg !default;
 $input-line-height-lg:                  $input-btn-line-height-lg !default;
 
 $input-bg:                              $white;
-//$input-disabled-bg:                     $gray-200 !default;
+$input-disabled-bg:                     $gray-200;
 
 $input-color:                           $gray-900;
 $input-border-color:                    $gray-200;

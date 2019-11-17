@@ -149,11 +149,11 @@
               </div>
             </div>
             <div class="mb-10 total__red-btn">
-              <a href="#" class="is-full-width checkout-red-btn h-44 btn">Оформить заказ</a>
+              <a href="#" class="is-full-width checkout-red-btn h-44 btn disabled">Оформить заказ</a>
             </div>
             <div class="total__conf">
               <label class="conf__check">
-                <input id="total-conf" type="checkbox" class="conf__check__input">
+                <input id="total-conf" type="checkbox" class="conf__check__input" data-module="agree-checkbox" data-target=".checkout-red-btn">
                 <span class="conf__check__box"></span>
               </label>
               <label for="total-conf" class="total__conf-label">Соглашение о конфиденциальности</label>
