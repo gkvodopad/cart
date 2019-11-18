@@ -39,7 +39,7 @@
 }
 
 .header-contact__text {
-  //@include small-wav-text;
+  @include small-wav-text;
   margin-right: 10px;
   margin-left: auto;
   margin-bottom: 8px;
@@ -49,7 +49,7 @@
 }
 
 .header-contact__phone {
-  //@include small-link-text;
+  @include small-link-text;
   font-size: 14px;
   text-decoration: underline;
   &:hover {
@@ -76,7 +76,7 @@
   }
 }
 .back-shop {
-  //@include small-link-text;
+  @include small-link-text;
   font-weight: 500;
   text-decoration: none;
   &:before {
@@ -91,7 +91,7 @@
 
 //MAIN
 .main-title {
-  //@include title-black;
+  @include title-black;
   font-weight: 500;
   margin-top: 38px;
   span {
@@ -156,7 +156,7 @@
       height: 22px;
       display: block;
       text-decoration: none;
-      //@include medium-gray-text;
+      @include medium-gray-text;
       position: relative;
       overflow: hidden;
       &:after {
@@ -190,7 +190,7 @@
     }
   }
   &__count {
-    //@include medium-white-text;
+    @include medium-white-text;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -587,7 +587,7 @@
   &_default {
     padding-top: 25px;
     padding-bottom: 22px;
-    //@include small-black-text;
+    @include small-black-text;
 
     @include media-breakpoint-down('sm') {
       padding-top: 0;
@@ -616,11 +616,11 @@
     }
   }
   &_oldprice {
-    //@include small-lightgray-text;
+    @include small-lightgray-text;
     text-decoration-line: line-through;
   }
   &_allprice {
-    //@include medium-wav-text;
+    @include medium-wav-text;
     font-weight: 500;
     @include media-breakpoint-down('sm') {
       margin-right: 10px;
@@ -681,7 +681,7 @@
       text-align: center;
       border: 1px solid #B6B6B6;
       outline: 0;
-      //@include small-black-text;
+      @include small-black-text;
     }
   }
 
@@ -778,7 +778,7 @@
 
 //FOOTER
 .footer-title {
-  //@include title-black;
+  @include title-black;
   font-weight: normal;
   padding-top: 42px;
   margin-bottom: 30px;
@@ -827,11 +827,11 @@
   position: relative;
   border-right: 1px solid #C5C5C5;
   margin-bottom: 51px;
-  //@include border-corner;
+  @include border-corner;
   width: 34%;
 
   &__title {
-    //@include small-title-black;
+    @include small-title-black;
     margin-bottom: 30px;
     @include media-breakpoint-down('md') {
       margin-left: auto;
@@ -873,10 +873,10 @@
       width: 102px;
       margin-right: 21px;
       margin-bottom: 0;
-      //@include medium-black-text;
+      @include medium-black-text;
       align-self: center;
     }
-    //@include input-state;
+    @include input-state;
     &_input {
       padding-left: 9px;
       font-size: 15px;
@@ -965,11 +965,11 @@
   position: relative;
   border-right: 1px solid #C5C5C5;
   margin-bottom: 51px;
-  //@include border-corner;
+  @include border-corner;
   width: 38%;
 
   &__title {
-    //@include small-title-black;
+    @include small-title-black;
     margin-bottom: 30px;
 
     @include media-breakpoint-down('md') {
@@ -1006,14 +1006,14 @@
 .type-ship {
   padding-bottom: 69px;
   position: relative;
-  //@include input-state;
+  @include input-state;
 
   &-pickup-wrap {
     display: none;
   }
   &-pickup {
     &__title {
-      //@include medium-black-text;
+      @include medium-black-text;
       margin-right: 12px;
     }
     &__input-wrap {
@@ -1022,7 +1022,7 @@
       height: 30px;
       display: block;
       text-decoration: none;
-      //@include medium-gray-text;
+      @include medium-gray-text;
       position: relative;
       &:before {
         content: '';
@@ -1079,7 +1079,7 @@
     margin-bottom: 16px;
 
     label {
-      //@include medium-black-text;
+      @include medium-black-text;
       margin-bottom: 0;
 
       @include media-breakpoint-down('md') {
@@ -1091,7 +1091,7 @@
       margin-left: 15px;
       width: 100%;
       padding-left: 12px;
-      //@include medium-black-text;
+      @include medium-black-text;
       border-radius: 3px;
       border: 1px solid #E5E5E5;
       &::placeholder {
@@ -1112,7 +1112,7 @@
     display: flex;
     align-items: center;
     &_label {
-      //@include medium-black-text;
+      @include medium-black-text;
       margin: 0;
       margin-left: 10px;
       cursor: pointer;
@@ -1201,10 +1201,10 @@
   padding-top: 10px;
   padding-left: 50px;
   width: 28%;
-  //@include input-state;
+  @include input-state;
 
   &__title {
-    //@include small-title-black;
+    @include small-title-black;
     margin-bottom: 35px;
     @include media-breakpoint-down('md') {
       margin-bottom: 20px;
@@ -1265,7 +1265,7 @@
       padding-left: 10px;
     }
     &_text {
-      //@include medium-black-text;
+      @include medium-black-text;
     }
   }
   &__promocode {
@@ -1307,7 +1307,7 @@
     line-height: 1;
     margin-bottom: 14px;
     &_title {
-      //@include medium-black-text;
+      @include medium-black-text;
       margin-right: auto;
       font-weight: 500;
     }
