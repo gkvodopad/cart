@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b76e31-568d-4b44-8b02-2eb457891d9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/html/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +26,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="33" />
           <entry key="js" value="18" />
           <entry key="json" value="2" />
@@ -43,13 +40,14 @@
           <entry key="HTML" value="33" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="18" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="38" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="2" />
           <entry key="html" value="1883" />
           <entry key="js" value="574" />
           <entry key="scss" value="880" />
@@ -59,6 +57,7 @@
         <counts>
           <entry key="HTML" value="1883" />
           <entry key="JavaScript" value="574" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="880" />
         </counts>
       </usages-collector>
@@ -66,15 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/_old.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="347" column="35" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_type.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,6 +79,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
               <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -111,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/modals.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -230,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/stylesheets/_modal.scss" />
         <option value="$PROJECT_DIR$/src/html/_part/modals/modal-cat-trap.html" />
         <option value="$PROJECT_DIR$/src/html/modals.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -345,7 +345,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="modal-&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/modals/modal-cat-trap.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;type.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_type.scss&#10;a&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;appli&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;icon.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;modal.scss&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_modal.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;vari&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/dist/css/bootstrap-grid.css&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
+    <property name="SearchEverywhereHistoryKey" value="gitig&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/.gitignore&#10;modal-&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/modals/modal-cat-trap.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;type.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_type.scss&#10;a&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;appli&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;icon.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;modal.scss&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_modal.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;vari&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/dist/css/bootstrap-grid.css&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -387,12 +387,12 @@
       <option name="presentableId" value="Default" />
       <updated>1574003269875</updated>
       <workItem from="1574003271180" duration="468000" />
-      <workItem from="1574017929039" duration="21670000" />
+      <workItem from="1574017929039" duration="21962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22138000" />
+    <option name="totallyTimeSpent" value="22430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="6" />
@@ -429,9 +429,6 @@
     <entry file="file://$PROJECT_DIR$/scss/main.scss" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javascripts/modules/example.js">
@@ -737,6 +734,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
