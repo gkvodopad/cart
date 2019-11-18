@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  min-width: 320px !important;
+  min-width: 320px;
   overflow-x: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -84,16 +84,4 @@ td.text-truncate {
 
 .section-divider-3 {
   margin-top: 4.3333rem; // 65px
-}
-
-.basket-empty-title {
-  @include media-breakpoint-down('xs') {
-    font-size: 18px;
-  }
-}
-
-.basket-empty-text {
-  @include media-breakpoint-down('xs') {
-    font-size: 13px;
-  }
 }

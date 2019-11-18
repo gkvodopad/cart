@@ -16,7 +16,7 @@
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/code";
+//@import "../node_modules/bootstrap/scss/code";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/tables";
 @import "../node_modules/bootstrap/scss/forms";
@@ -45,8 +45,8 @@
 @import "../node_modules/bootstrap/scss/modal";
 @import "../node_modules/bootstrap/scss/tooltip";
 @import "../node_modules/bootstrap/scss/popover";
-@import "../node_modules/bootstrap/scss/carousel";
-@import "../node_modules/bootstrap/scss/spinners";
+//@import "../node_modules/bootstrap/scss/carousel";
+//@import "../node_modules/bootstrap/scss/spinners";
 
 
 // bootstrap utilities
@@ -66,10 +66,13 @@
 @import "../node_modules/bootstrap/scss/utilities/sizing";
 @import "../node_modules/bootstrap/scss/utilities/stretched-link";
 @import "../node_modules/bootstrap/scss/utilities/spacing";
+
 @import "../node_modules/bootstrap/scss/utilities/text";
 @import "text";
+
 @import "../node_modules/bootstrap/scss/utilities/visibility";
 @import "../node_modules/bootstrap/scss/print";
 
 @import "common";
 @import "cart";
+@import "old";
