@@ -1,0 +1,22 @@
+.icon {
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 1;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  background-size: cover;
+
+  & svg {
+    fill: currentColor;
+  }
+
+  &-sm,
+  &-sm svg {
+    width: 1.067rem; // 16px
+    height: 1.067rem;
+  }
+}
