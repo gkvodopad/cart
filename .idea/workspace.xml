@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b76e31-568d-4b44-8b02-2eb457891d9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_part/cart/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_part/cart/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascripts/modules/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/javascripts/modules/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_cart.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,32 +49,20 @@
         <counts>
           <entry key="html" value="1051" />
           <entry key="js" value="574" />
-          <entry key="scss" value="553" />
+          <entry key="scss" value="586" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1051" />
           <entry key="JavaScript" value="574" />
-          <entry key="SCSS" value="553" />
+          <entry key="SCSS" value="586" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
-              <folding>
-                <element signature="e#89#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -155,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-lg</find>
       <find>-lg:</find>
       <find>375rem</find>
       <find>border-radius</find>
@@ -185,6 +166,7 @@
       <find>text</find>
       <find>select</find>
       <find>disabled</find>
+      <find>is-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -349,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/dist/css/bootstrap-grid.css&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
+    <property name="SearchEverywhereHistoryKey" value="common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/dist/css/bootstrap-grid.css&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -390,12 +372,12 @@
       <option name="presentableId" value="Default" />
       <updated>1574003269875</updated>
       <workItem from="1574003271180" duration="468000" />
-      <workItem from="1574017929039" duration="15584000" />
+      <workItem from="1574017929039" duration="16476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16052000" />
+    <option name="totallyTimeSpent" value="16944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="6" />
@@ -616,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
-          <folding>
-            <element signature="e#89#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/_part/cart/content-empty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-112" />
@@ -652,6 +624,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#89#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-484">
@@ -661,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>

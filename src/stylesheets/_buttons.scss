@@ -1,13 +1,28 @@
 .btn-primary {
   @include button-variant(rgba($primary, 0.8), rgba($primary, 0.8), $primary, $primary, $primary, $primary);
-}
 
-.btn-success {
-  @include button-variant(rgba($success, 0.8), rgba($success, 0.8), $success, $success, $success, $success);
+  .is-mobile,
+  .is-tablet {
+    @include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
+  }
 }
 
 .btn-secondary {
   @include button-variant(rgba($secondary, 0.8), rgba($secondary, 0.8), $secondary, $secondary, $secondary, $secondary);
+
+  .is-mobile,
+  .is-tablet {
+    @include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
+  }
+}
+
+.btn-success {
+  @include button-variant(rgba($success, 0.8), rgba($success, 0.8), $success, $success, $success, $success);
+
+  .is-mobile,
+  .is-tablet {
+    @include button-variant($success, $success, $success, $success, $success, $success);
+  }
 }
 
 .btn-outline-secondary {
