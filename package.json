@@ -10,7 +10,7 @@
     "normalize-scss": "^7.0.1"
   },
   "scripts": {
-    "watch": "node-sass -w scss/main.scss css/main.min.css --include-path node_modules/normalize-scss/sass --output-style compressed",
-    "build": "node-sass scss/main.scss css/main.min.css --include-path node_modules/normalize-scss/sass --output-style compressed"
+    "watch": "node-sass -w scss/main.scss css/main.min.css --output-style compressed",
+    "build": "node-sass scss/main.scss css/main.min.css --output-style compressed"
   }
 }
