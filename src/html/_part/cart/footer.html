@@ -11,23 +11,23 @@
             <form>
               <div class="footer-form__input-wrap">
                 <label for="form-name">Ваше имя</label>
-                <input id="form-name" class="footer-form__input-wrap_input error" type="text" placeholder="Ваше имя">
+                <input id="form-name" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Ваше имя">
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-email">Email</label>
-                <input id="form-email" class="footer-form__input-wrap_input success" type="text" placeholder="Email">
+                <input id="form-email" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Email">
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-phone">Телефон</label>
-                <input class="footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" type="text" placeholder="+7(__)__-__">
+                <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" type="text" placeholder="+7 (___) ___-__-__">
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-card">Карта клиента (если есть)</label>
-                <input class="footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-card" type="text">
+                <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-card" type="text">
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-area">Комментарий</label>
-                <textarea id="form-area"></textarea>
+                <textarea class="form-control" id="form-area"></textarea>
               </div>
             </form>
             <div class="brdr-mobile"></div>
@@ -42,7 +42,7 @@
               <div class="type-ship-delivery-wrap">
                 <div class="type-ship__input-wrap">
                   <label for="ship-input">Адрес</label>
-                  <input id="ship-input" placeholder="Комендантский проспект 172, кв 94" type="text">
+                  <input class="form-control" id="ship-input" placeholder="Комендантский проспект 172, кв 94" type="text">
                 </div>
                 <div class="type-ship__check">
                   <label class="check">
@@ -58,9 +58,7 @@
                   <div class="d-flex align-items-center">
                     <div class="type-ship-pickup__title">Магазин</div>
                     <div class="type-ship-pickup__input-wrap">
-                      <select>
-                        <option>м. Комендантский проспект, пр</option>
-                      </select>
+                      <input class="form-control" value="м. Комендантский проспект, пр">
                     </div>
                   </div>
                   <div id="map" class="type-ship-pickup__map"></div>

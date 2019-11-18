@@ -17,3 +17,10 @@
 .btn-260px {
   min-width: 260px;
 }
+
+.btn.disabled,
+.btn:disabled {
+  color: var(--white) !important;
+  background-color: $gray-200 !important;
+  border-color: $gray-200 !important;
+}

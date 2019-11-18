@@ -2,6 +2,7 @@ import 'svgxuse';
 // import Drop from 'tether-drop';
 // import autosize from 'autosize';
 import ismobile from 'ismobilejs';
+import Inputmask from 'inputmask';
 
 $(() => {
   // 60fps scrolling using pointer-events: none
@@ -91,5 +92,7 @@ $(() => {
 
   // autosize($('textarea.js-autosize'));
 
-  
+  var selector = document.getElementById("form-phone");
+  var im = new Inputmask("+7 (999) 999-99-99");
+  im.mask(selector);
 });

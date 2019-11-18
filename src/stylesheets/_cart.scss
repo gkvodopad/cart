@@ -876,25 +876,18 @@
       @include medium-black-text;
       align-self: center;
     }
+
     @include input-state;
+
     &_input {
-      padding-left: 9px;
-      font-size: 15px;
-      height: 30px;
       flex-grow: 1;
       width: auto;
-      border-radius: 3px;
-      border: 1px solid #E5E5E5;
     }
 
     textarea {
       width: 230px;
       height: 80px;
       resize: none;
-      border-radius: 3px;
-      border: 1px solid #E5E5E5;
-      padding-left: 9px;
-      font-size: 15px;
       flex-grow: 1;
     }
 
@@ -914,10 +907,12 @@
         align-self: flex-start;
       }
     }
+
     &_small-input {
       flex-grow: 0;
       width: 160px;
     }
+
     @include media-breakpoint-down('sm') {
       flex-direction: column;
 
