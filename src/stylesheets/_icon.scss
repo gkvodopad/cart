@@ -1,4 +1,4 @@
-.icon {
+.icon-svg {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -11,11 +11,11 @@
   background-size: cover;
 
   & svg {
-    fill: currentColor;
+    fill: none;
   }
 
-  &-sm,
-  &-sm svg {
+  &--sm,
+  &--sm svg {
     width: 1.067rem; // 16px
     height: 1.067rem;
   }

@@ -110,9 +110,9 @@
 
 .baskets-list {
   display: flex;
-  height: 50px;
-  margin-right: 83px;
+  //margin-right: 83px;
   margin-bottom: 0;
+  height: 3.333rem;
 
   @include media-breakpoint-down('lg') {
     margin-right: auto;
@@ -121,6 +121,7 @@
   @include media-breakpoint-down('md') {
     padding-left: 15px;
   }
+
   li {
     height: 100%;
     display: flex;
@@ -130,6 +131,7 @@
 
     @include media-breakpoint-down('md') {
       display: none;
+
       &:nth-child(1),
       &:nth-child(2),
       &:nth-child(3) {
@@ -153,12 +155,12 @@
       cursor: pointer;
     }
     .baskets-list__link {
-      height: 22px;
       display: block;
       text-decoration: none;
       @include medium-gray-text;
       position: relative;
       overflow: hidden;
+
       &:after {
         content: '';
         width: 30%;
@@ -169,6 +171,7 @@
         top: 0;
         background: linear-gradient(270deg, #F3F3F3 0%, rgba(255, 255, 255, 0) 92.86%);
       }
+
       &:before {
         display: block;
         content: attr(title);
@@ -194,6 +197,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 22px;
     width: 22px;
     height: 22px;
     background: $gray-400;
@@ -203,7 +207,6 @@
   &__close {
     height: 18px;
     width: 18px;
-    margin-left: 10px;
     position: relative;
 
     &:hover {
@@ -233,9 +236,6 @@
   &__edit {
     width: 16px;
     height: 16px;
-    display: block;
-    margin-left: 10px;
-    margin-top: -2px;
     svg {
       vertical-align: top;
     }
@@ -1439,3 +1439,47 @@
 .ml-2, .mx-2 { margin-left: 0.5rem !important; }
 .tltp-hldr { position: relative; z-index: 2; display: inline-block; }
 .tltp-hldr:hover .tltp-blck { display: block; }
+
+.baskets-list-scroller {
+  position: relative;
+  z-index: 2;
+  height: 3.333rem;
+  overflow-y: hidden;
+
+  .baskets-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+    height: 4.333rem;
+  }
+}
+
+.baskets-list__actions {
+  .baskets-list__actions-icon {
+    margin-left: 10px;
+  }
+}
+
+.baskets-list__input {
+  min-width: 120px;
+}
+
+.baskets-list__input::-moz-selection { background: $green-light; }
+.baskets-list__input::selection { background: $green-light; }
+
+.baskets-list__input-wrap {
+  position: relative;
+
+  //&:after {
+  //  content: '';
+  //  width: 20px;
+  //  height: 100%;
+  //  display: block;
+  //  position: absolute;
+  //  right: 0;
+  //  top: 0;
+  //  background: linear-gradient(270deg, #F3F3F3 0%, rgba(255, 255, 255, 0) 92.86%);
+  //}
+}

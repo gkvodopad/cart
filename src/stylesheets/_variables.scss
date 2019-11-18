@@ -45,6 +45,7 @@ $blue:    #276075;
 $red:     #CF4238;
 //$orange:  #fd7e14 !default;
 //$yellow:  #ffc107 !default;
+$green-light: #D5DA9D;
 $green:   #B7C63A;
 //$teal:    #20c997 !default;
 //$cyan:    #17a2b8 !default;
@@ -1122,7 +1123,7 @@ $pre-scrollable-max-height:         340px !default;
 
 // Utilities
 
-//$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex;
 //$overflows: auto, hidden !default;
 //$positions: static, relative, absolute, fixed, sticky !default;
 

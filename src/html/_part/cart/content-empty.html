@@ -1,17 +1,17 @@
 <div>
   <div class="container">
-    <div class="row">
-      <h1 class="main-title">Корзины <span>4</span></h1>
-    </div>
+    <h1 class="main-title">Корзины <span>4</span></h1>
   </div>
 </div>
 
 <div class="light-gray-bg">
   <div class="container">
-    <div class="row">
-      {% include '_part/cart/tabs-navigation.html' %}
+    <div class="row no-gutters flex-nowrap">
+      <div class="col col-lg-8">
+        {% include '_part/cart/tabs-navigation.html' %}
+      </div>
       <div class="baskets-list-next"><span></span></div>
-      <div class="new-basket-btn-wrap">
+      <div class="new-basket-btn-wrap col-lg-4 d-none d-lg-flex justify-content-center">
         <button class="new-basket-btn"><span></span>Новая корзина</button>
       </div>
     </div>

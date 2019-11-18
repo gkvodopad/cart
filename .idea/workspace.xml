@@ -3,32 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="a6b76e31-568d-4b44-8b02-2eb457891d9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/task-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/task-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras/rails/ASSETS-README.md" beforeDir="false" afterPath="$PROJECT_DIR$/extras/rails/ASSETS-README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/lib/task-defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/lib/task-defaults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/tasks/stylesheets.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/tasks/stylesheets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/_part/cart/content-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/content-empty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/_part/cart/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_part/cart/controls.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/controls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_part/cart/empty-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/empty-text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/_part/cart/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_part/cart/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_part/cart/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/items.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/_part/cart/tabs-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/tabs-navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_part/modals/modal-cat-trap.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/modals/modal-cat-trap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/cart-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart-empty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/cart-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/cart-empty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/layouts/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/layouts/application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/javascripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_part/cart/content-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_part/cart/content-empty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_part/cart/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_part/cart/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_part/cart/tabs-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_part/cart/tabs-navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/_old.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_old.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,53 +45,46 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="44" />
+          <entry key="html" value="53" />
           <entry key="js" value="43" />
           <entry key="json" value="5" />
           <entry key="lock" value="1" />
-          <entry key="scss" value="57" />
+          <entry key="scss" value="65" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="44" />
+          <entry key="HTML" value="53" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="43" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="57" />
+          <entry key="SCSS" value="65" />
+          <entry key="SVG" value="1" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="html" value="1924" />
+          <entry key="html" value="2657" />
           <entry key="js" value="704" />
-          <entry key="scss" value="1197" />
+          <entry key="scss" value="1589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1924" />
+          <entry key="HTML" value="2657" />
           <entry key="JavaScript" value="704" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="1197" />
+          <entry key="SCSS" value="1589" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/path-config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,32 +95,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/_part/cart/header.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/html/_part/cart/tabs-navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="12" />
+              <folding>
+                <element signature="e#26422#26681#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/_icon.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/_part/cart/content.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/html/cart-empty.html">
+        <entry file="file://$PROJECT_DIR$/src/html/_part/cart/content-empty.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/_old.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="1469" column="61" selection-start-line="1469" selection-start-column="61" selection-end-line="1469" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/cart-empty.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -144,37 +164,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/_part/cart/footer.html">
+        <entry file="file://$PROJECT_DIR$/src/html/modals.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2104" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js/lib/task-defaults.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-start-line="38" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js/tasks/stylesheets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="90">
+              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -183,36 +176,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//@include</find>
-      <find>$input-btn-focus-color</find>
-      <find>focus</find>
-      <find>-hover</find>
-      <find>text</find>
-      <find>select</find>
-      <find>disabled</find>
-      <find>is-</find>
-      <find>h1-</find>
-      <find>font-sjze</find>
-      <find>font-size-sm</find>
-      <find>moda-</find>
-      <find>2c</find>
-      <find>2</find>
-      <find>gray-450</find>
-      <find>form-gro</find>
-      <find>modal-md</find>
-      <find>modal-lg</find>
-      <find>grid</find>
-      <find>spacer</find>
-      <find>$spacer</find>
-      <find>modal</find>
-      <find>normalize-scss/sass/normalize</find>
-      <find>outlin</find>
-      <find>outline</find>
       <find>hover</find>
       <find>$btn</find>
       <find>$input-btn-focus-width</find>
       <find>$input-btn-focus-width:</find>
       <find>main.js</find>
+      <find>close</find>
+      <find>19px</find>
+      <find>__close</find>
+      <find>margin-left: 10px</find>
+      <find>basket</find>
+      <find>list__close</find>
+      <find>edit</find>
+      <find>display:</find>
+      <find>__cout</find>
+      <find>controls</find>
+      <find>tabs-</find>
+      <find>baskets-list</find>
+      <find>basket-active</find>
+      <find>56px</find>
+      <find>main-title</find>
+      <find>53px</find>
+      <find>form-con</find>
+      <find>link</find>
+      <find>__link</find>
+      <find>basket-list</find>
+      <find>margin-right</find>
+      <find>83px</find>
+      <find>scroller</find>
+      <find>D5DA9D</find>
+      <find>green</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -228,18 +221,14 @@
         <option value="$PROJECT_DIR$/src/html/_part/cart/basket-table.html" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/basket-controls.html" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/tabs.html" />
-        <option value="$PROJECT_DIR$/src/html/_part/cart/content.html" />
-        <option value="$PROJECT_DIR$/src/html/_part/cart/content-empty.html" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/cart.js" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/empty-text.html" />
-        <option value="$PROJECT_DIR$/src/html/_part/cart/controls.html" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/promocode-input.js" />
         <option value="$PROJECT_DIR$/src/stylesheets/_cart.scss" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/footer.html" />
         <option value="$PROJECT_DIR$/src/stylesheets/_basket.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_text.scss" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_icon.scss" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/modal-cat-trap.html" />
         <option value="$PROJECT_DIR$/src/html/pages.html" />
         <option value="$PROJECT_DIR$/src/stylesheets/_type.scss" />
@@ -252,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/javascripts/modules/common.js" />
         <option value="$PROJECT_DIR$/gulpfile.js/task-config.js" />
         <option value="$PROJECT_DIR$/src/stylesheets/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/bootstrap.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/main.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_common.scss" />
@@ -262,6 +250,14 @@
         <option value="$PROJECT_DIR$/gulpfile.js/tasks/stylesheets.js" />
         <option value="$PROJECT_DIR$/src/html/cart.html" />
         <option value="$PROJECT_DIR$/src/html/cart-empty.html" />
+        <option value="$PROJECT_DIR$/src/html/_part/cart/controls.html" />
+        <option value="$PROJECT_DIR$/public/_part/modals/modal-cat-trap.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_icon.scss" />
+        <option value="$PROJECT_DIR$/src/html/_part/cart/content.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_old.scss" />
+        <option value="$PROJECT_DIR$/src/html/_part/cart/tabs-navigation.html" />
+        <option value="$PROJECT_DIR$/src/html/_part/cart/content-empty.html" />
       </list>
     </option>
   </component>
@@ -282,10 +278,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1001" />
     <option name="y" value="23" />
-    <option name="width" value="439" />
-    <option name="height" value="792" />
+    <option name="width" value="1280" />
+    <option name="height" value="1331" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -302,6 +297,24 @@
             <path>
               <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
@@ -366,7 +379,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="appli&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;gulpfile&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/gulpfile.js&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;comm&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;variable&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;butto&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;vari&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;main&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/main.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/bootstrap.scss&#10;app.js&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/app.js&#10;gitig&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/.gitignore&#10;modal-&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/modals/modal-cat-trap.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;type.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_type.scss&#10;a&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;icon.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;modal.scss&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_modal.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
+    <property name="SearchEverywhereHistoryKey" value="var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;controls&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;old&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_old.scss&#10;vari&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;icon&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;modal.scss&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_modal.scss&#10;modal-&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/modals/modal-cat-trap.html&#10;tabs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/tabs-navigation.html&#10;header&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/header.html&#10;old.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_old.scss&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;moon&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/fonts/icomoon.svg&#10;appli&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;gulpfile&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/gulpfile.js&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;comm&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;variable&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;butto&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;main&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/main.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/bootstrap.scss&#10;app.js&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/app.js&#10;gitig&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/.gitignore&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;type.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_type.scss&#10;a&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;icon.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -374,15 +387,15 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/html/_part/modals" />
+      <recent name="$PROJECT_DIR$/scss" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/stylesheets" />
       <recent name="$PROJECT_DIR$/src/html" />
       <recent name="$PROJECT_DIR$/src/html/_part/cart" />
       <recent name="$PROJECT_DIR$/src/javascripts/modules" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/html/_part/modals" />
-      <recent name="$PROJECT_DIR$/scss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,13 +426,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27677000" />
+    <option name="totallyTimeSpent" value="34166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="792" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1331" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29598308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16541946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -433,7 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24857143" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14043583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -446,80 +459,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/pages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="59" selection-start-line="3" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/modals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/modals/modal-cat-trap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/path-config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/tasks/production.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/agree-checkbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/task-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -531,20 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="398" column="31" selection-start-line="398" selection-start-column="31" selection-end-line="398" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -572,11 +497,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_normalize-mixin.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,6 +631,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="59" selection-start-line="3" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/icomoon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/_part/modals/modal-cat-trap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/cart-empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/controls.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -718,34 +722,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/footer.html">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/content.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="357">
+          <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#26422#26681#2" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/cart-empty.html">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_icon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_old.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="1469" column="61" selection-start-line="1469" selection-start-column="61" selection-end-line="1469" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/tabs-navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/content-empty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
