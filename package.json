@@ -78,6 +78,8 @@
     "ismobilejs": "^1.0.3",
     "jquery": "^3.4.1",
     "mocha": "^6.0.2",
+    "normalize": "^0.3.1",
+    "normalize-scss": "^7.0.1",
     "svgxuse": "^1.2.6"
   },
   "author": "Alexandr Averyanov <aversanio@gmail.com>"

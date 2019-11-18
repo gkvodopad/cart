@@ -396,7 +396,7 @@ $input-btn-font-family:       null;
 $input-btn-font-size:         $font-size-base;
 $input-btn-line-height:       $line-height-base;
 
-$input-btn-focus-width:       1px;
+$input-btn-focus-width:       0;
 $input-btn-focus-color:       rgba($component-active-bg, .25);
 $input-btn-focus-box-shadow:  none; // 0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
@@ -803,7 +803,7 @@ $pagination-border-width:           $border-width !default;
 $pagination-border-color:           $gray-300 !default;
 
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
-$pagination-focus-outline:          0 !default;
+$pagination-focus-outline:          0;
 
 $pagination-hover-color:            $link-hover-color !default;
 $pagination-hover-bg:               $gray-200 !default;

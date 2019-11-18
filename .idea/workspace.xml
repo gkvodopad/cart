@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b76e31-568d-4b44-8b02-2eb457891d9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/task-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/task-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/content-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/content-empty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/controls.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/controls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/empty-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/empty-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/tabs-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/tabs-navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/modals/modal-cat-trap.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/modals/modal-cat-trap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart-empty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/layouts/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/layouts/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javascripts/modules/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/javascripts/modules/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,38 +53,38 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="33" />
-          <entry key="js" value="18" />
-          <entry key="json" value="2" />
+          <entry key="html" value="34" />
+          <entry key="js" value="29" />
+          <entry key="json" value="4" />
           <entry key="lock" value="1" />
-          <entry key="scss" value="38" />
+          <entry key="scss" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="33" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="18" />
+          <entry key="HTML" value="34" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="29" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="38" />
+          <entry key="SCSS" value="57" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="html" value="1883" />
-          <entry key="js" value="574" />
-          <entry key="scss" value="880" />
+          <entry key="html" value="1901" />
+          <entry key="js" value="642" />
+          <entry key="scss" value="1197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1883" />
-          <entry key="JavaScript" value="574" />
+          <entry key="HTML" value="1901" />
+          <entry key="JavaScript" value="642" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="880" />
+          <entry key="SCSS" value="1197" />
         </counts>
       </usages-collector>
     </session>
@@ -66,10 +92,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/_type.scss">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/bootstrap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_normalize-mixin.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -77,80 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="305">
+              <caret line="398" column="31" selection-start-line="398" selection-start-column="31" selection-end-line="398" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/_part/modals/modal-cat-trap.html">
+        <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="52" selection-start-column="52" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/modals.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/pages.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="59" selection-start-line="3" selection-end-line="3" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/_icon.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/_modal.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+            <state relative-caret-position="78">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -159,13 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Проио</find>
-      <find>input-g</find>
-      <find>b6b6b6</find>
-      <find>place</find>
-      <find>input-</find>
-      <find>$input-btn-focus-box-shadow</find>
-      <find>include</find>
       <find>@include</find>
       <find>//@include</find>
       <find>$input-btn-focus-color</find>
@@ -189,6 +177,13 @@
       <find>spacer</find>
       <find>$spacer</find>
       <find>modal</find>
+      <find>normalize-scss/sass/normalize</find>
+      <find>outlin</find>
+      <find>outline</find>
+      <find>hover</find>
+      <find>$btn</find>
+      <find>$input-btn-focus-width</find>
+      <find>$input-btn-focus-width:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,17 +200,13 @@
         <option value="$PROJECT_DIR$/src/html/_part/cart/content.html" />
         <option value="$PROJECT_DIR$/src/html/cart-empty.html" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/content-empty.html" />
-        <option value="$PROJECT_DIR$/src/javascripts/app.js" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/cart.js" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/empty-text.html" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/controls.html" />
         <option value="$PROJECT_DIR$/src/html/cart.html" />
-        <option value="$PROJECT_DIR$/src/html/layouts/application.html" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/promocode-input.js" />
-        <option value="$PROJECT_DIR$/src/javascripts/modules/common.js" />
         <option value="$PROJECT_DIR$/src/stylesheets/_cart.scss" />
         <option value="$PROJECT_DIR$/src/html/_part/cart/footer.html" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_basket.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_text.scss" />
@@ -223,13 +214,21 @@
         <option value="$PROJECT_DIR$/src/html/_part/cart/modal-cat-trap.html" />
         <option value="$PROJECT_DIR$/src/html/pages.html" />
         <option value="$PROJECT_DIR$/src/stylesheets/_type.scss" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_common.scss" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/app.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_modal.scss" />
         <option value="$PROJECT_DIR$/src/html/_part/modals/modal-cat-trap.html" />
         <option value="$PROJECT_DIR$/src/html/modals.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/src/javascripts/modules/common.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js/task-config.js" />
+        <option value="$PROJECT_DIR$/config/task-config.js" />
+        <option value="$PROJECT_DIR$/src/html/layouts/application.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/stylesheets/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/src/stylesheets/main.scss" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_common.scss" />
       </list>
     </option>
   </component>
@@ -274,20 +273,38 @@
             <path>
               <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="gulpfile.js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="normalize-scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="normalize-scss" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vodopad-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="normalize-scss" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="normalize" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vodopad-ru" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +362,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="gitig&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/.gitignore&#10;modal-&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/modals/modal-cat-trap.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;type.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_type.scss&#10;a&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;appli&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;icon.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;modal.scss&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_modal.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;vari&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/dist/css/bootstrap-grid.css&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
+    <property name="SearchEverywhereHistoryKey" value="comm&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;variable&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;butto&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;vari&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;appli&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;main&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/main.scss&#10;bootstrap&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/bootstrap.scss&#10;app.js&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/app.js&#10;gitig&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/.gitignore&#10;modal-&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/modals/modal-cat-trap.html&#10;app.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;app&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/app.scss&#10;type.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_type.scss&#10;a&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;icon.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_icon.scss&#10;var&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;modal.scss&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_modal.scss&#10;varia&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;common&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/javascripts/modules/common.js&#10;butt&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/mixins/_buttons.scss&#10;button&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;cart.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;footer&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/footer.html&#10;content&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;footer.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/public/_part/cart/footer.html&#10;control&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/controls.html&#10;_cart&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;buttons&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_buttons.scss&#10;empty&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;common.&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_common.scss&#10;text&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/empty-text.html&#10;buttons.s&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/node_modules/bootstrap/scss/_buttons.scss&#10;mixins&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_mixins.scss&#10;cart.scs&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_cart.scss&#10;variab&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss&#10;pages&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/pages.html&#10;applica&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/layouts/application.html&#10;package&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/package.json&#10;content.html&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/html/_part/cart/content.html&#10;variables&#9;FILE&#9;file:///Users/aversan/web/vodopad-ru/src/stylesheets/_variables.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -387,12 +404,12 @@
       <option name="presentableId" value="Default" />
       <updated>1574003269875</updated>
       <workItem from="1574003271180" duration="468000" />
-      <workItem from="1574017929039" duration="21962000" />
+      <workItem from="1574017929039" duration="25949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22430000" />
+    <option name="totallyTimeSpent" value="26417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="6" />
@@ -425,62 +442,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/scss/main.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/example.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/tasks/production.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/tasks/webpackProduction.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/lib/task-defaults.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js/lib/webpack-multi-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/items.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/cart/tabs-navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/cart-empty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -527,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -577,20 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_cart.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -608,39 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#89#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/agree-checkbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_text.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -652,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="220" column="3" selection-start-line="220" selection-start-column="3" selection-end-line="220" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -681,20 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_icon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -702,24 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_part/modals/modal-cat-trap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -739,8 +611,173 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_part/modals/modal-cat-trap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/path-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/tasks/production.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/tasks/stylesheets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/agree-checkbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/task-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding>
+            <element signature="e#89#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/task-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/path-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_cart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="398" column="31" selection-start-line="398" selection-start-column="31" selection-end-line="398" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_import-now.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_vertical-rhythm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_normalize-mixin.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/normalize-scss/sass/normalize/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
