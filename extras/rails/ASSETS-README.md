@@ -15,7 +15,7 @@ In production (`yarn run blendid build`), filenames get hashed so you can cache 
 
 ```ruby
 blendid_asset_path('image/asset.jpg') # -> /image/logo-n39o4orb81.png
-blendid_js_path('app.js')             # -> /javascripts/app-f43e9abc11.js
+blendid_js_path('main.js')             # -> /javascripts/app-f43e9abc11.js
 blendid_css_path('app.css')           # -> /stylesheets/app-d29e4cdb76.css
 blendid_image_path('logo.png')        # -> /images/logo-n39o4orb81.png
 ```
@@ -39,7 +39,7 @@ The asset path helpers check for the existence a rev-manifest.json file, generat
 
 ```json
 {
-  "javascripts/app.js":  "app-f43e9abc11.js",
+  "javascripts/main.js":  "app-f43e9abc11.js",
   "stylesheets/app.css":  "app-d29e4cdb76.css"
 }
 ```

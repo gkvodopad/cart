@@ -11,6 +11,7 @@ var postcss          = require('gulp-postcss')
 var projectPath      = require('../lib/projectPath')
 var sass             = require('gulp-sass')
 var sourcemaps       = require('gulp-sourcemaps')
+var rename           = require('gulp-rename')
 
 var sassTask = function () {
 
@@ -55,6 +56,7 @@ var sassTask = function () {
     .pipe(postcss(TASK_CONFIG.stylesheets.postcss.plugins, TASK_CONFIG.stylesheets.postcss.options))
     .on('error', handleErrors)
     .pipe(gulpif(!global.production, sourcemaps.write()))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(paths.dest))
     .pipe(browserSync.stream())
 }

@@ -36,9 +36,9 @@ module.exports = {
   },
 
   stylesheets: {
-    autoprefixer: {
-      browsers: ['last 10 versions']
-    },
+    // autoprefixer: {
+    //   browsers: ['last 10 versions']
+    // },
     sass: {
       includePaths: [
         "./node_modules"
