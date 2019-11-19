@@ -1,0 +1,19 @@
+.container,
+.container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
+
+  body:not(.not-adaptive) & {
+    @include media-breakpoint-down('md') {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  body:not(.not-adaptive) & {
+    @include media-breakpoint-down('sm') {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
