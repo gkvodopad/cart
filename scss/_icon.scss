@@ -1,4 +1,4 @@
-.icon-svg {
+.icon {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -14,8 +14,14 @@
     fill: none;
   }
 
-  &_sm,
-  &_sm svg {
+  &-xs,
+  &-xs svg {
+    width: .53rem; // 8px
+    height: .53rem;
+  }
+
+  &-sm,
+  &-sm svg {
     width: 1.067rem; // 16px
     height: 1.067rem;
   }
