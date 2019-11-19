@@ -1,56 +1,68 @@
 .btn-primary {
-  //@include button-variant(rgba($primary, 0.8), rgba($primary, 0.8), $primary, $primary, $primary, $primary);
+  @include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
   opacity: .8;
+
+  @include hover-focus-active {
+    opacity: 1;
+  }
 
   .is-mobile,
   .is-tablet {
-    //@include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
+    @include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
     opacity: 1;
   }
 
   @include media-breakpoint-down('sm') {
-    //@include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
+    @include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
     opacity: 1;
   }
 }
 
 .btn-secondary {
-  //@include button-variant(rgba($secondary, 0.8), rgba($secondary, 0.8), $secondary, $secondary, $secondary, $secondary);
+  @include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
   opacity: .8;
+
+  @include hover-focus-active {
+    opacity: 1;
+  }
 
   .is-mobile,
   .is-tablet {
-    //@include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
+    @include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
     opacity: 1;
   }
 
   @include media-breakpoint-down('sm') {
-    //@include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
+    @include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
     opacity: 1;
   }
 }
 
 .btn-success {
-  //@include button-variant(rgba($success, 0.8), rgba($success, 0.8), $success, $success, $success, $success);
+  @include button-variant($success, $success, $success, $success, $success, $success);
   opacity: .8;
+
+  @include hover-focus-active {
+    opacity: 1;
+  }
 
   .is-mobile,
   .is-tablet {
-    //@include button-variant($success, $success, $success, $success, $success, $success);
+    @include button-variant($success, $success, $success, $success, $success, $success);
     opacity: 1;
   }
 
   @include media-breakpoint-down('sm') {
-    //@include button-variant($success, $success, $success, $success, $success, $success);
+    @include button-variant($success, $success, $success, $success, $success, $success);
     opacity: 1;
   }
 }
 
 .btn-outline-secondary {
-  //@include button-outline-variant($secondary, color-yiq($secondary), $secondary, $secondary);
+  @include button-outline-variant($secondary, color-yiq($secondary), $secondary, $secondary);
 
   @include media-breakpoint-down('sm') {
-    //@include button-outline-variant($secondary, color-yiq($secondary), $secondary, $secondary);
+    @include button-outline-variant($secondary, color-yiq($secondary), $secondary, $secondary);
   }
 }
 
