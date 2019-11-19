@@ -14,5 +14,8 @@
     "watch-bootstrap": "node-sass -w scss/bootstrap.scss css/bootstrap.min.css --output-style compressed",
     "build": "node-sass scss/main.scss css/main.min.css --output-style compressed",
     "build-bootstrap": "node-sass scss/bootstrap.scss css/bootstrap.min.css --output-style compressed"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1"
   }
 }
