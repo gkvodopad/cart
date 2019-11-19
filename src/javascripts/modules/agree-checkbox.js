@@ -6,12 +6,13 @@ export default class AgreeCheckbox {
       const $checkbox = $(this);
       const target = $checkbox.data('target');
       const $target = $(target);
+      const className = $checkbox.data('class') || 'disabled';
 
       $checkbox.on('change', function(){
         if ($checkbox.is(':checked')) {
-          $target.removeClass('disabled');
+          $target.removeClass(className);
         } else {
-          $target.addClass('disabled');
+          $target.addClass(className);
         }
       });
     });
