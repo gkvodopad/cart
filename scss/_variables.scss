@@ -460,7 +460,7 @@ $btn-transition:              color .15s ease-in-out, background-color .15s ease
 
 // Forms
 
-//$label-margin-bottom:                   .5rem !default;
+$label-margin-bottom:                   .333rem;
 
 $input-padding-y:                       $input-btn-padding-y;
 $input-padding-x:                       $input-btn-padding-x;
@@ -512,7 +512,7 @@ $input-height-lg:                       calc(#{$input-line-height-lg * 1em} + #{
 
 $input-transition:                      border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
-$form-text-margin-top:                  .25rem !default;
+$form-text-margin-top:                  .333rem;
 
 $form-check-input-gutter:               1.25rem !default;
 $form-check-input-margin-y:             .3rem !default;
@@ -521,7 +521,7 @@ $form-check-input-margin-x:             .25rem !default;
 $form-check-inline-margin-x:            .75rem !default;
 $form-check-inline-input-margin-x:      .3125rem !default;
 
-$form-grid-gutter-width:                10px !default;
+$form-grid-gutter-width:                20px;
 $form-group-margin-bottom:              1rem;
 
 $input-group-addon-color:               $input-color !default;
@@ -632,28 +632,29 @@ $custom-range-thumb-focus-box-shadow-width:  $input-focus-width !default; // For
 $custom-range-thumb-active-bg:               lighten($component-active-bg, 35%) !default;
 $custom-range-thumb-disabled-bg:             $gray-500 !default;
 
-$custom-file-height:                $input-height !default;
-$custom-file-height-inner:          $input-height-inner !default;
-$custom-file-focus-border-color:    $input-focus-border-color !default;
-$custom-file-focus-box-shadow:      $input-focus-box-shadow !default;
-$custom-file-disabled-bg:           $input-disabled-bg !default;
+$custom-file-height:                $input-height;
+$custom-file-height-inner:          $input-height-inner;
+$custom-file-focus-border-color:    $input-focus-border-color;
+$custom-file-focus-box-shadow:      $input-focus-box-shadow;
+$custom-file-disabled-bg:           $input-disabled-bg;
 
-$custom-file-padding-y:             $input-padding-y !default;
-$custom-file-padding-x:             $input-padding-x !default;
-$custom-file-line-height:           $input-line-height !default;
-$custom-file-font-family:           $input-font-family !default;
-$custom-file-font-weight:           $input-font-weight !default;
-$custom-file-color:                 $input-color !default;
-$custom-file-bg:                    $input-bg !default;
-$custom-file-border-width:          $input-border-width !default;
-$custom-file-border-color:          $input-border-color !default;
-$custom-file-border-radius:         $input-border-radius !default;
-$custom-file-box-shadow:            $input-box-shadow !default;
-$custom-file-button-color:          $custom-file-color !default;
-$custom-file-button-bg:             $input-group-addon-bg !default;
+$custom-file-padding-y:             $input-padding-y;
+$custom-file-padding-x:             $input-padding-x;
+$custom-file-line-height:           $input-line-height;
+$custom-file-font-family:           $input-font-family;
+$custom-file-font-weight:           $input-font-weight;
+$custom-file-color:                 $input-color;
+$custom-file-bg:                    $input-bg;
+$custom-file-border-width:          $input-border-width;
+$custom-file-border-color:          $input-border-color;
+$custom-file-border-radius:         $input-border-radius;
+$custom-file-box-shadow:            $input-box-shadow;
+$custom-file-button-color:          $white;
+$custom-file-button-bg:             $secondary;
 $custom-file-text: (
-  en: "Browse"
-) !default;
+  en: "Browse",
+  ru: "Выбрать файл"
+);
 
 
 // Form validation
@@ -994,15 +995,15 @@ $alert-color-level:                 6 !default;
 
 // Progress bars
 
-$progress-height:                   1rem !default;
-$progress-font-size:                $font-size-base * .75 !default;
-$progress-bg:                       $gray-200 !default;
-$progress-border-radius:            $border-radius !default;
-$progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1) !default;
-$progress-bar-color:                $white !default;
-$progress-bar-bg:                   theme-color("primary") !default;
-$progress-bar-animation-timing:     1s linear infinite !default;
-$progress-bar-transition:           width .6s ease !default;
+$progress-height:                   1.666rem;
+$progress-font-size:                .8666rem;
+$progress-bg:                       $gray-200;
+$progress-border-radius:            $border-radius;
+$progress-box-shadow:               none; // inset 0 .1rem .1rem rgba($black, .1) !default;
+$progress-bar-color:                $blue;
+$progress-bar-bg:                   rgba($blue, .2);
+$progress-bar-animation-timing:     1s linear infinite;
+$progress-bar-transition:           width .6s ease;
 
 
 // List group
@@ -1128,10 +1129,10 @@ $pre-scrollable-max-height:         340px !default;
 
 $displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex;
 //$overflows: auto, hidden !default;
-//$positions: static, relative, absolute, fixed, sticky !default;
+$positions: static, relative, absolute, fixed, sticky;
 
 
 // Printing
 
-$print-page-size:                   a3 !default;
-$print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+$print-page-size:                   a4;
+$print-body-min-width:              map-get($grid-breakpoints, "lg");
