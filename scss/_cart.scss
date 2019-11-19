@@ -1,0 +1,12 @@
+h1.basket-empty-title,
+.h1.basket-empty-title {
+  @include media-breakpoint-down('xs') {
+    font-size: $h2-font-size;
+  }
+}
+
+.basket-empty-text {
+  @include media-breakpoint-down('xs') {
+    font-size: $font-size-sm;
+  }
+}
