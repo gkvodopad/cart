@@ -136,16 +136,12 @@
 
 .baskets-list {
   display: flex;
-  //margin-right: 83px;
+  margin-right: 83px;
   margin-bottom: 0;
   height: 3.333rem;
 
   @include media-breakpoint-down('lg') {
     margin-right: auto;
-  }
-
-  @include media-breakpoint-down('md') {
-    padding-left: 15px;
   }
 
   li {
@@ -186,17 +182,6 @@
       @include medium-gray-text;
       position: relative;
       overflow: hidden;
-
-      &:after {
-        content: '';
-        width: 30%;
-        height: 100%;
-        display: block;
-        position: absolute;
-        left: 115px;
-        top: 0;
-        background: linear-gradient(270deg, #F3F3F3 0%, rgba(255, 255, 255, 0) 92.86%);
-      }
 
       &:before {
         display: block;
@@ -1604,6 +1589,16 @@
   z-index: 2;
   height: 3.333rem;
   overflow-y: hidden;
+  margin-right: 83px;
+  max-width: 100%;
+
+  @include media-breakpoint-down('lg') {
+    margin-right: 56px;
+  }
+
+  @include media-breakpoint-down('md') {
+    margin-right: 0;
+  }
 
   .baskets-list {
     display: flex;
@@ -1612,6 +1607,7 @@
     white-space: nowrap;
     padding-bottom: 1rem;
     height: 4.333rem;
+    margin-right: 0;
   }
 }
 
@@ -1628,17 +1624,42 @@
 .baskets-list__input::-moz-selection { background: $green-light; }
 .baskets-list__input::selection { background: $green-light; }
 
+
+.baskets-list__link,
 .baskets-list__input-wrap {
   position: relative;
+  max-width: calc(11.3rem - 2rem);
 
-  //&:after {
-  //  content: '';
-  //  width: 20px;
-  //  height: 100%;
-  //  display: block;
-  //  position: absolute;
-  //  right: 0;
-  //  top: 0;
-  //  background: linear-gradient(270deg, #F3F3F3 0%, rgba(255, 255, 255, 0) 92.86%);
-  //}
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(11.3rem - 2rem - 15px);
+    height: 100%;
+    width: 15px;
+    background-image: linear-gradient(270deg, #F3F3F3 0%, rgba(255, 255, 255, 0) 92.86%);
+  }
+}
+
+.basket-active-link .baskets-list__link,
+.basket-active-link .baskets-list__input-wrap {
+  max-width: calc(15rem - 5.666rem);
+
+  &::after {
+    left: calc(15rem - 5.666rem - 15px);
+  }
+}
+
+.baskets-list__count,
+.baskets-list__actions {
+  z-index: 2;
+}
+
+.baskets-col-navigation {
+  max-width: calc(100% - 160px);
+
+  @include media-breakpoint-down('md') {
+    width: calc(100% - 9px);
+    max-width: calc(100% - 9px);
+  }
 }
