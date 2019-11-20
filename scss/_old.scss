@@ -1618,12 +1618,8 @@
 }
 
 .baskets-list__input {
-  min-width: 120px;
+  background: $green-light;
 }
-
-.baskets-list__input::-moz-selection { background: $green-light; }
-.baskets-list__input::selection { background: $green-light; }
-
 
 .baskets-list__link,
 .baskets-list__input-wrap {
