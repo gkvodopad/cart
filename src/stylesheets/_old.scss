@@ -124,8 +124,6 @@
   }
 
   @include media-breakpoint-down('sm') {
-    padding-left: 15px;
-    padding-right: 15px;
     margin-top: 16px;
   }
 }
@@ -386,8 +384,6 @@
         display: none;
       }
     }
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 17px;
     padding-bottom: 18px;
   }
@@ -1538,6 +1534,15 @@
   color: #A0A0A0;
 }
 
+a.total__conf-label {
+  color: #A0A0A0;
+
+  @include hover-focus {
+    color: #A0A0A0;
+    text-decoration: underline;
+  }
+}
+
 
 // IE FIX
 @media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
@@ -1617,9 +1622,8 @@
   }
 }
 
-.baskets-list__input {
-  background: $green-light;
-}
+.baskets-list__input::-moz-selection { background: $green-light; }
+.baskets-list__input::selection { background: $green-light; }
 
 .baskets-list__link,
 .baskets-list__input-wrap {

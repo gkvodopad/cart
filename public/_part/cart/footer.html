@@ -78,7 +78,7 @@
                 </div>
                 <div class="type-pay__input-wrap">
                   <label class="radio">
-                    <input name="payment" id="card-site" type="radio" class="radio__input" checked="checked">
+                    <input name="payment" id="card-site" type="radio" class="radio__input" checked>
                     <span class="radio__btn"></span>
                     <label for="card-site">Картой на сайте</label>
                   </label>
@@ -153,7 +153,7 @@
               </ul>
             </div>
             <div class="total__promocode">
-              <div class="input-group" data-module="promocode-input">
+              <div class="input-group"  data-module="promocode-input">
                 <input class="form-control js-input" type="text" placeholder="Промокод">
                 <div class="input-group-append">
                   <button class="btn btn-secondary disabled js-button">Применить</button>
@@ -170,13 +170,13 @@
             <div class="mb-10 total__red-btn">
               <a href="#" class="is-full-width checkout-red-btn btn-lg btn btn-primary font-weight-medium disabled">Оформить заказ</a>
             </div>
-            <div class="total__conf">
-              <label class="conf__check">
+            <label class="total__conf">
+              <span class="conf__check">
                 <input id="total-conf" type="checkbox" class="conf__check__input" data-module="agree-checkbox" data-target=".checkout-red-btn">
                 <span class="conf__check__box"></span>
-              </label>
-              <label for="total-conf" class="total__conf-label">Соглашение о конфиденциальности</label>
-            </div>
+              </span>
+              <a class="total__conf-label" href="#" target="_blank">Соглашение о конфиденциальности</a>
+            </label>
           </div>
         </div>
       </div>
