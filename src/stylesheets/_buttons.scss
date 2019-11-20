@@ -8,12 +8,10 @@
 
   .is-mobile,
   .is-tablet {
-    @include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
     opacity: 1;
   }
 
   @include media-breakpoint-down('sm') {
-    @include button-variant($primary, $primary, $primary, $primary, $primary, $primary);
     opacity: 1;
   }
 }
@@ -28,12 +26,10 @@
 
   .is-mobile,
   .is-tablet {
-    @include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
     opacity: 1;
   }
 
   @include media-breakpoint-down('sm') {
-    @include button-variant($secondary, $secondary, $secondary, $secondary, $secondary, $secondary);
     opacity: 1;
   }
 }
@@ -48,12 +44,10 @@
 
   .is-mobile,
   .is-tablet {
-    @include button-variant($success, $success, $success, $success, $success, $success);
     opacity: 1;
   }
 
   @include media-breakpoint-down('sm') {
-    @include button-variant($success, $success, $success, $success, $success, $success);
     opacity: 1;
   }
 }
@@ -63,6 +57,12 @@
 
   @include media-breakpoint-down('sm') {
     @include button-outline-variant($secondary, color-yiq($secondary), $secondary, $secondary);
+  }
+
+  @include hover {
+    background-color: rgba($secondary, .5);
+    border: none;
+    color: $secondary;
   }
 }
 

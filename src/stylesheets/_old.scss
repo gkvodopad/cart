@@ -1271,6 +1271,7 @@
 }
 .brdr-mobile,
 .brdr-mobile-top {
+  background: #F3F3F3;
   display: none;
 
   body:not(.not-adaptive) & {
@@ -1280,7 +1281,6 @@
       left: -1000px;
       margin: 0;
       bottom: 0;
-      background: #F3F3F3;
       display: block;
       position: absolute;
     }
@@ -1618,12 +1618,8 @@
 }
 
 .baskets-list__input {
-  min-width: 120px;
+  background: $green-light;
 }
-
-.baskets-list__input::-moz-selection { background: $green-light; }
-.baskets-list__input::selection { background: $green-light; }
-
 
 .baskets-list__link,
 .baskets-list__input-wrap {
