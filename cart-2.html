@@ -11,10 +11,10 @@
     <!-- Generate using http://realfavicongenerator.net/ -->
 
 
-
+    
   </head>
   <body class="page-body">
-
+    
 <header class="header">
   <div class="header-head">
     <div class="container">
@@ -44,7 +44,7 @@
 
 
     <div class="page-wrapper">
-
+      
 <div>
   <div class="container">
     <h1 class="main-title">Корзины <span>4</span></h1>
@@ -63,7 +63,7 @@
     </li>
     <li class="basket-active-link">
       <div class="baskets-list__input-wrap w-100">
-        <input class="form-control-plaintext baskets-list__input font-weight-medium py-0" type="text" value="Приморский 173" style="width: 120px">
+        <input class="form-control-plaintext baskets-list__input font-weight-medium" type="text" value="Приморский 173" style="width:120px">
       </div>
       <span class="baskets-list__count">3</span>
       <div class="baskets-list__actions d-flex align-items-center">
@@ -73,7 +73,7 @@
             <path d="M12.1606 5.30172L12.1607 5.30158C12.4464 4.9202 12.4464 4.34262 12.1607 3.96124C12.0095 3.75948 11.7849 3.625 11.527 3.625C11.269 3.625 11.0444 3.75948 10.8932 3.96124L6.47483 9.85886L5.10679 8.03281C4.95563 7.83105 4.73103 7.69657 4.47304 7.69657C4.21506 7.69657 3.99045 7.83105 3.83929 8.03281C3.55357 8.41419 3.55357 8.99177 3.83929 9.37315L5.83631 12.0388C5.98865 12.2421 6.21498 12.375 6.47245 12.375C6.72985 12.375 6.95614 12.2422 7.10848 12.0389C7.10851 12.0388 7.10854 12.0388 7.10858 12.0388L12.1606 5.30172Z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="0.75"/>
           </svg>
         </span>
-        <span class="baskets-list__actions-icon baskets-list__close"></span>
+        <span class="baskets-list__actions-icon baskets-list__close" data-toggle="modal" data-target="#modal-delete-confirm"></span>
       </div>
     </li>
     <li>
@@ -153,7 +153,7 @@
     <div class="basket-cap__item">Количество</div>
     <div class="basket-cap__item">Сумма</div>
   </div>
-  <div class="basket-items__item">
+  <div class="basket-items__item" data-label="Аренда">
     <div class="basket-items__item_default basket-items__item_check">
       <label class="check">
         <input type="checkbox" class="check__input">
@@ -177,10 +177,15 @@
         <div class="basket-items__item_oldprice">5 880 ₽</div>
       </div>
       <div class="basket-items__item_default basket-items__item_count-wrap">
-        <div class="basket-items__item_count">
-          <div>-</div>
-          <input type="text" value="1">
-          <div>+</div>
+        <div class="d-inline-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-danger" data-position="bottom right" data-open-on="click">
+          <div class="basket-items__item_count drop-target">
+            <div>-</div>
+            <input type="text" value="1">
+            <div>+</div>
+          </div>
+          <div class="drop-content">
+            В данный момент к экспресс доставке доступно <span class="font-weight-medium">5 шт.</span>
+          </div>
         </div>
       </div>
       <div class="basket-items__item_default basket-items__item_allprice-wrap">
@@ -282,7 +287,7 @@
 
 
     </div>
-
+    
 <footer class="footer light-gray-bg">
   <div class="owfh">
     <div class="container">
@@ -296,11 +301,19 @@
             <form>
               <div class="footer-form__input-wrap">
                 <label for="form-name">Ваше имя</label>
-                <input id="form-name" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Ваше имя">
+                <input id="form-name" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Ваше имя">
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-email">Email</label>
-                <input id="form-email" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Email">
+                <div class="d-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-form" data-position="bottom left" data-open-on="click">
+                  <div class="drop-target">
+                    <input id="form-email" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Email">
+                  </div>
+                  <div class="drop-content">
+                    В адресе <span class="font-weight-medium">alexanderivanovmail.ru</span> отсутствует символ “@”
+                  </div>
+                </div>
+
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-phone">Телефон</label>
@@ -327,14 +340,16 @@
               <div class="type-ship-delivery-wrap">
                 <div class="type-ship__input-wrap">
                   <label for="ship-input">Адрес</label>
-                  <input class="form-control" id="ship-input" placeholder="Комендантский проспект 172, кв 94" type="text">
+                  <input class="form-control" id="ship-input" placeholder="" type="text" value="Комендантский проспект 172, кв 94">
                 </div>
                 <div class="type-ship__check">
                   <label class="check">
                     <input id="type-ship-check" type="checkbox" class="check__input">
                     <span class="check__box"></span>
                   </label>
-                  <label class="type-ship__check_label" for="type-ship-check">Подъем 350 рублей <i class="ico m-ico-brdr m-grey-ico tltp-hldr ml-2">?</i>
+                  <label class="type-ship__check_label" for="type-ship-check">
+                    Подъем 350 рублей
+                    <span class="icon icon-sm"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.88 9.701c0-.476.059-.856.177-1.139.118-.282.351-.592.698-.929.351-.34.573-.582.666-.725.144-.218.215-.455.215-.709 0-.336-.084-.592-.252-.768-.165-.179-.408-.268-.73-.268-.309 0-.557.087-.747.263-.186.172-.28.406-.28.703H6.322c.007-.633.222-1.135.645-1.504.426-.368.988-.553 1.686-.553.72 0 1.28.183 1.681.548.405.365.607.876.607 1.53 0 .585-.272 1.16-.816 1.725l-.66.65c-.237.268-.359.66-.366 1.176H7.88zm-.091 1.67a.68.68 0 01.198-.51c.133-.132.312-.198.537-.198.23 0 .41.068.543.204.132.132.199.3.199.505a.68.68 0 01-.194.494c-.129.132-.311.199-.548.199-.236 0-.419-.067-.547-.2a.691.691 0 01-.188-.493z" fill="#A0A0A0"/><path d="M16.5 8c0 4.114-3.553 7.5-8 7.5S.5 12.114.5 8 4.053.5 8.5.5s8 3.386 8 7.5z" stroke="#A0A0A0"/></svg></span>
                   </label>
                 </div>
               </div>
@@ -425,10 +440,11 @@
                     <span class="total__info_text">Бесплатно</span>
                   </div>
                 </li>
+                <li class="mt-n1"><div class="total__info_text typo-sm text-secondary w-100">(до бесплатной доставки осталось: 1254 ₽)</div></li>
                 <li>
                   <div class="d-flex">
                     <span class="baskets-list__close"></span>
-                    <span class="total__info_text">Подъем</span>
+                    <span class="total__info_text font-weight-medium">Подъем</span>
                   </div>
                   <div></div>
                   <div class="total__info_right-col">
@@ -445,6 +461,25 @@
                 </div>
               </div>
             </div>
+            <div class="total__info">
+              <ul>
+                <li class="text-success">
+                  <div class="total__info_text text-success">Скидка&nbsp;по&nbsp;промокоду</div>
+                  <div></div>
+                  <div>
+                    <span class="total__info_text text-success">-23 400 ₽</span>
+                  </div>
+                </li>
+                <li class="mt-n1 mb-3">
+                  <div class="alert alert-sm alert-success alert-dismissible fade show w-100 mb-0 alert-sm mb-0" role="alert">
+                    20let - 20 лет Водопаду -20%
+                    <button type="button" class="close alert-icon-close" data-dismiss="alert" aria-label="Close">
+                      <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
             <div class="total__price">
               <div class="total__price_title">К оплате</div>
               <div class="d-flex align-items-end">
@@ -455,13 +490,13 @@
             <div class="mb-10 total__red-btn">
               <a href="#" class="is-full-width checkout-red-btn btn-lg btn btn-primary font-weight-medium disabled">Оформить заказ</a>
             </div>
-            <div class="total__conf">
-              <label class="conf__check">
+            <label class="total__conf">
+              <span class="conf__check">
                 <input id="total-conf" type="checkbox" class="conf__check__input" data-module="agree-checkbox" data-target=".checkout-red-btn">
                 <span class="conf__check__box"></span>
-              </label>
-              <label for="total-conf" class="total__conf-label">Соглашение о конфиденциальности</label>
-            </div>
+              </span>
+              <a class="total__conf-label" href="#" target="_blank">Соглашение о конфиденциальности</a>
+            </label>
           </div>
         </div>
       </div>
@@ -470,9 +505,29 @@
 </footer>
 
 
+    
+<div class="modal modal-md fade" id="modal-delete-confirm">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body pl-4 pr-4_75 py-6">
+        <button type="button" class="close modal-close position-absolute" data-dismiss="modal" aria-label="Close">
+          <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <h2 class="mb-4_5">Подтверждение удаления</h2>
+        <p class="mb-0">
+          Вы&nbsp;точно хотите удалить корзину &laquo;<span class="font-weight-medium">Приморский 173</span>&raquo; со&nbsp;всеми&nbsp;её&nbsp;товарами?
+        </p>
+        <div class="mt-4_5">
+          <button class="btn btn-primary px-4_5 font-weight-medium"><span class="typo-sm">Удалить</span></button>
+          <button class="btn btn-link btn-link px-4_5 font-weight-medium" data-dismiss="modal"><span class="typo-sm">Отмена</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-
+    
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?apikey=d62c1a4b-3385-4467-b170-1e11a5f49c07&lang=ru_RU"></script>

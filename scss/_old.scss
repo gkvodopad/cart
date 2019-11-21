@@ -124,8 +124,6 @@
   }
 
   @include media-breakpoint-down('sm') {
-    padding-left: 15px;
-    padding-right: 15px;
     margin-top: 16px;
   }
 }
@@ -370,7 +368,7 @@
   @include media-breakpoint-down('md') {
     border-bottom: none;
     .brdr-mobile {
-      border-color: #767676;
+      background-color: $gray-500;
     }
     &__right {
       display: none;
@@ -386,8 +384,6 @@
         display: none;
       }
     }
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 17px;
     padding-bottom: 18px;
   }
@@ -981,7 +977,7 @@
 
     &_input {
       flex-grow: 1;
-      width: auto;
+      width: 230px;
     }
 
     textarea {
@@ -1111,6 +1107,7 @@
       @include medium-black-text;
       margin-right: 12px;
     }
+
     &__input-wrap {
       overflow: hidden;
       width: 100%;
@@ -1119,6 +1116,7 @@
       text-decoration: none;
       @include medium-gray-text;
       position: relative;
+
       &:before {
         content: '';
         background-image: url("../images/arrowselect.svg");
@@ -1134,6 +1132,7 @@
         color: var(--blue);
         pointer-events: none;
         font-weight: bold;
+        z-index: 2;
       }
       &:after {
         content: '';
@@ -1181,18 +1180,10 @@
         margin-right: auto;
       }
     }
+
     input {
-      height: 30px;
       margin-left: 15px;
       width: 100%;
-      padding-left: 12px;
-      @include medium-black-text;
-      border-radius: 3px;
-      border: 1px solid #E5E5E5;
-      &::placeholder {
-        color: $body-color;
-      }
-
 
       @include media-breakpoint-down('md') {
         margin-left: 0;
@@ -1206,6 +1197,7 @@
   &__check {
     display: flex;
     align-items: center;
+
     &_label {
       @include medium-black-text;
       margin: 0;
@@ -1219,6 +1211,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   @include media-breakpoint-down('sm') {
     padding-bottom: 30px;
   }
@@ -1271,6 +1264,7 @@
 }
 .brdr-mobile,
 .brdr-mobile-top {
+  background: $border-color;
   display: none;
 
   body:not(.not-adaptive) & {
@@ -1280,7 +1274,6 @@
       left: -1000px;
       margin: 0;
       bottom: 0;
-      background: #F3F3F3;
       display: block;
       position: absolute;
     }
@@ -1321,7 +1314,7 @@
     ul li {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 3px;
+      margin-bottom: 10px;
 
       &:last-child {
         margin-bottom: 0;
@@ -1538,6 +1531,15 @@
   color: #A0A0A0;
 }
 
+a.total__conf-label {
+  color: #A0A0A0;
+
+  @include hover-focus {
+    color: #A0A0A0;
+    text-decoration: underline;
+  }
+}
+
 
 // IE FIX
 @media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
@@ -1562,7 +1564,7 @@
 
 // OLD STYLES
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?t32cwy"); src: url("../fonts/icomoon.eot?t32cwy#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?t32cwy") format("truetype"), url("../fonts/icomoon.woff?t32cwy") format("woff"), url("../fonts/icomoon.svg?t32cwy#icomoon") format("svg"); font-weight: normal; font-style: normal; }
-.ico { display: inline-block; width: 16px; height: 16px; line-height: 16px; border-radius: 50%; color: #CF4238; font-size: 12px; font-style: normal; text-align: center; }
+.ico { display: inline-block; width: 16px; height: 16px; line-height: 16px; border-radius: 50%; color: #CF4238; font-size: 11px; font-weight: 500; font-style: normal; text-align: center; }
 .m-ico-grn { background: #BACD38; color: #FFFFFF; }
 .icon-check:before { content: ""; }
 .fnt-10 { font-size: 10px; }
@@ -1617,9 +1619,8 @@
   }
 }
 
-.baskets-list__input {
-  background: $green-light;
-}
+.baskets-list__input::-moz-selection { background: $green-light; }
+.baskets-list__input::selection { background: $green-light; }
 
 .baskets-list__link,
 .baskets-list__input-wrap {
@@ -1657,5 +1658,30 @@
   @include media-breakpoint-down('md') {
     width: calc(100% - 9px);
     max-width: calc(100% - 9px);
+  }
+}
+
+.basket-items__item[data-label]::after {
+  display: block;
+  content: attr(data-label);
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  @include text-truncate();
+  text-align: center;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  width: 81px;
+  position: absolute;
+  top: 23px;
+  left: 68px;
+  margin-left: -40px;
+
+  @include media-breakpoint-down('sm') {
+    top: 17px;
+    left: 46px;
   }
 }
