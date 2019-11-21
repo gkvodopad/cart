@@ -5,11 +5,15 @@
   <div class="section-divider"></div>
   <h1>Modals</h1>
   <p><a href="#" data-toggle="modal" data-target="#modal-cat-trap">Cat trap</a></p>
+  <p><a href="#" data-toggle="modal" data-target="#modal-error">Error</a></p>
+  <p><a href="#" data-toggle="modal" data-target="#modal-delete-confirm">Delete confirm</a></p>
   <div class="section-divider"></div>
 </div>
 {% endblock %}
 
 {% block modals %}
 {% include '_part/modals/modal-cat-trap.html' %}
+{% include '_part/modals/modal-error.html' %}
+{% include '_part/modals/modal-delete-confirm.html' %}
 {% endblock %}
 

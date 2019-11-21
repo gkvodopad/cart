@@ -82,7 +82,11 @@ body {
 }
 
 .underline {
-  border-bottom: 1px solid;
+  text-decoration: underline;
+
+  @include hover-focus {
+    text-decoration: underline;
+  }
 }
 
 th.text-truncate,

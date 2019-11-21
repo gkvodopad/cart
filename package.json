@@ -80,7 +80,8 @@
     "mocha": "^6.0.2",
     "normalize": "^0.3.1",
     "normalize-scss": "^7.0.1",
-    "svgxuse": "^1.2.6"
+    "svgxuse": "^1.2.6",
+    "tether-drop": "^1.4.2"
   },
   "author": "Alexandr Averyanov <aversanio@gmail.com>"
 }

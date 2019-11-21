@@ -7,7 +7,7 @@
     <div class="basket-cap__item">Количество</div>
     <div class="basket-cap__item">Сумма</div>
   </div>
-  <div class="basket-items__item">
+  <div class="basket-items__item" data-label="Аренда">
     <div class="basket-items__item_default basket-items__item_check">
       <label class="check">
         <input type="checkbox" class="check__input">
@@ -31,10 +31,15 @@
         <div class="basket-items__item_oldprice">5 880 ₽</div>
       </div>
       <div class="basket-items__item_default basket-items__item_count-wrap">
-        <div class="basket-items__item_count">
-          <div>-</div>
-          <input type="text" value="1">
-          <div>+</div>
+        <div class="d-inline-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-danger" data-position="bottom right" data-open-on="click">
+          <div class="basket-items__item_count drop-target">
+            <div>-</div>
+            <input type="text" value="1">
+            <div>+</div>
+          </div>
+          <div class="drop-content">
+            В данный момент к экспресс доставке доступно <span class="font-weight-medium">5 шт.</span>
+          </div>
         </div>
       </div>
       <div class="basket-items__item_default basket-items__item_allprice-wrap">

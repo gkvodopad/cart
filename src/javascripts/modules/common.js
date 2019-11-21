@@ -1,5 +1,5 @@
 import 'svgxuse';
-// import Drop from 'tether-drop';
+import Drop from 'tether-drop';
 // import autosize from 'autosize';
 import ismobile from 'ismobilejs';
 import Inputmask from 'inputmask';
@@ -31,45 +31,45 @@ $(() => {
 
   // drop
 
-  // (function () {
-  //   const _Drop = Drop.createContext({
-  //     classPrefix: 'drop',
-  //   });
+  (function () {
+    const _Drop = Drop.createContext({
+      classPrefix: 'drop',
+    });
 
-  //   const setup = function () {
-  //     return $('.js-drop').each(function () {
-  //       const $dropwrap = $(this);
-  //       const theme = $dropwrap.data('theme');
-  //       const position = $dropwrap.data('position');
-  //       const openOn = $dropwrap.data('open-on') || '';
-  //       const $target = $dropwrap.find('.drop-target');
-  //       $target.addClass(theme);
-  //       const content = $dropwrap.find('.drop-content').html();
+    const setup = function () {
+      return $('.js-drop').each(function () {
+        const $dropwrap = $(this);
+        const theme = $dropwrap.data('theme');
+        const position = $dropwrap.data('position');
+        const openOn = $dropwrap.data('open-on') || '';
+        const $target = $dropwrap.find('.drop-target');
+        $target.addClass(theme);
+        const content = $dropwrap.find('.drop-content').html();
 
-  //       const drop = new _Drop({
-  //         target: $target[0],
-  //         classes: theme,
-  //         position,
-  //         constrainToWindow: false,
-  //         constrainToScrollParent: false,
-  //         openOn,
-  //         content,
-  //         hoverOpenDelay: 1000,
-  //         // remove: true
-  //       });
+        const drop = new _Drop({
+          target: $target[0],
+          classes: theme,
+          position,
+          constrainToWindow: false,
+          constrainToScrollParent: false,
+          openOn,
+          content,
+          hoverOpenDelay: 1000,
+          // remove: true
+        });
 
-  //       $(this)[0].drop = drop;
+        $(this)[0].drop = drop;
 
-  //       return drop;
-  //     });
-  //   };
+        return drop;
+      });
+    };
 
-  //   const init = function () {
-  //     return setup();
-  //   };
+    const init = function () {
+      return setup();
+    };
 
-  //   init();
-  // }).call(this);
+    init();
+  }).call(this);
 
   // dropdown
 

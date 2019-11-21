@@ -11,11 +11,19 @@
             <form>
               <div class="footer-form__input-wrap">
                 <label for="form-name">Ваше имя</label>
-                <input id="form-name" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Ваше имя">
+                <input id="form-name" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Ваше имя">
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-email">Email</label>
-                <input id="form-email" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Email">
+                <div class="d-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-form" data-position="bottom left" data-open-on="click">
+                  <div class="drop-target">
+                    <input id="form-email" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Email">
+                  </div>
+                  <div class="drop-content">
+                    В адресе <span class="font-weight-medium">alexanderivanovmail.ru</span> отсутствует символ “@”
+                  </div>
+                </div>
+
               </div>
               <div class="footer-form__input-wrap">
                 <label for="form-phone">Телефон</label>
@@ -42,14 +50,16 @@
               <div class="type-ship-delivery-wrap">
                 <div class="type-ship__input-wrap">
                   <label for="ship-input">Адрес</label>
-                  <input class="form-control" id="ship-input" placeholder="Комендантский проспект 172, кв 94" type="text">
+                  <input class="form-control" id="ship-input" placeholder="" type="text" value="Комендантский проспект 172, кв 94">
                 </div>
                 <div class="type-ship__check">
                   <label class="check">
                     <input id="type-ship-check" type="checkbox" class="check__input">
                     <span class="check__box"></span>
                   </label>
-                  <label class="type-ship__check_label" for="type-ship-check">Подъем 350 рублей <i class="ico m-ico-brdr m-grey-ico tltp-hldr ml-2">?</i>
+                  <label class="type-ship__check_label" for="type-ship-check">
+                    Подъем 350 рублей
+                    <span class="icon icon-sm"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.88 9.701c0-.476.059-.856.177-1.139.118-.282.351-.592.698-.929.351-.34.573-.582.666-.725.144-.218.215-.455.215-.709 0-.336-.084-.592-.252-.768-.165-.179-.408-.268-.73-.268-.309 0-.557.087-.747.263-.186.172-.28.406-.28.703H6.322c.007-.633.222-1.135.645-1.504.426-.368.988-.553 1.686-.553.72 0 1.28.183 1.681.548.405.365.607.876.607 1.53 0 .585-.272 1.16-.816 1.725l-.66.65c-.237.268-.359.66-.366 1.176H7.88zm-.091 1.67a.68.68 0 01.198-.51c.133-.132.312-.198.537-.198.23 0 .41.068.543.204.132.132.199.3.199.505a.68.68 0 01-.194.494c-.129.132-.311.199-.548.199-.236 0-.419-.067-.547-.2a.691.691 0 01-.188-.493z" fill="#A0A0A0"/><path d="M16.5 8c0 4.114-3.553 7.5-8 7.5S.5 12.114.5 8 4.053.5 8.5.5s8 3.386 8 7.5z" stroke="#A0A0A0"/></svg></span>
                   </label>
                 </div>
               </div>
@@ -140,10 +150,11 @@
                     <span class="total__info_text">Бесплатно</span>
                   </div>
                 </li>
+                <li class="mt-n1"><div class="total__info_text typo-sm text-secondary w-100">(до бесплатной доставки осталось: 1254 ₽)</div></li>
                 <li>
                   <div class="d-flex">
                     <span class="baskets-list__close"></span>
-                    <span class="total__info_text">Подъем</span>
+                    <span class="total__info_text font-weight-medium">Подъем</span>
                   </div>
                   <div></div>
                   <div class="total__info_right-col">
@@ -159,6 +170,25 @@
                   <button class="btn btn-secondary disabled js-button">Применить</button>
                 </div>
               </div>
+            </div>
+            <div class="total__info">
+              <ul>
+                <li class="text-success">
+                  <div class="total__info_text text-success">Скидка&nbsp;по&nbsp;промокоду</div>
+                  <div></div>
+                  <div>
+                    <span class="total__info_text text-success">-23 400 ₽</span>
+                  </div>
+                </li>
+                <li class="mt-n1 mb-3">
+                  <div class="alert alert-sm alert-success alert-dismissible fade show w-100 mb-0 alert-sm mb-0" role="alert">
+                    20let - 20 лет Водопаду -20%
+                    <button type="button" class="close alert-icon-close" data-dismiss="alert" aria-label="Close">
+                      <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
             </div>
             <div class="total__price">
               <div class="total__price_title">К оплате</div>
