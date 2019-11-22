@@ -721,6 +721,7 @@
       border: 1px solid #B6B6B6;
       width: 19px;
       height: 20px;
+      line-height: 18px;
       text-align: center;
       cursor: pointer;
 
@@ -1708,4 +1709,9 @@ a.total__conf-label {
     top: 17px;
     left: 46px;
   }
+}
+
+.basket-items__item_stock .ico {
+  position: relative;
+  top: -1px;
 }
