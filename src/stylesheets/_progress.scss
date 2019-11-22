@@ -20,4 +20,8 @@
       margin: auto;
     }
   }
+
+  .progress__action:hover .icon svg path {
+    stroke: var(--red);
+  }
 }

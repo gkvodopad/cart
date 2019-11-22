@@ -8,6 +8,23 @@
 
 .custom-file-label {
   margin-bottom: 0;
+
+  &::after {
+    opacity: .8;
+
+    .is-mobile,
+    .is-tablet {
+      opacity: 1;
+    }
+
+    @include media-breakpoint-down('sm') {
+      opacity: 1;
+    }
+  }
+}
+
+.custom-file-input:lang(ru):hover ~ .custom-file-label::after {
+  opacity: 1;
 }
 
 .custom-file-sm {
