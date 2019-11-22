@@ -18,7 +18,7 @@ $gray-550: #767676;
 //$gray-700: #495057 !default;
 //$gray-800: #343a40 !default;
 $gray-900: #2C2B2B;
-//$black:    #000 !default;
+$black:    #000;
 
 $grays: ();
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -88,8 +88,8 @@ $theme-colors: map-merge(
     "primary":    $primary,
     "secondary":  $secondary,
     "success":    $success,
-    //"info":       $info,
-    //"warning":    $warning,
+    "info":       $info,
+    "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
     "dark":       $dark
@@ -144,7 +144,7 @@ $spacers: map-merge(
     2: ($spacer * .666), // 10px
     3: $spacer, // 15px
     4: ($spacer * 1.333), // 20px
-    4_5: ($spacer * 1.8), // 27px
+    4_5: ($spacer * 1.666), // 25px
     4_75: ($spacer * 2), // 30px
     5: ($spacer * 2.333), // 35px
     5_5: ($spacer * 2.666), // 40px
@@ -981,16 +981,16 @@ $modal-transition:                  transform .3s ease-out;
 //
 // Define alert colors, border radius, and padding.
 
-$alert-padding-y:                   .75rem !default;
-$alert-padding-x:                   1.25rem !default;
-$alert-margin-bottom:               1rem !default;
-$alert-border-radius:               $border-radius !default;
-$alert-link-font-weight:            $font-weight-bold !default;
-$alert-border-width:                $border-width !default;
+$alert-padding-y:                   .75rem;
+$alert-padding-x:                   1.25rem;
+$alert-margin-bottom:               1rem;
+$alert-border-radius:               $border-radius;
+$alert-link-font-weight:            $font-weight-bold;
+$alert-border-width:                0;
 
-$alert-bg-level:                    -10 !default;
-$alert-border-level:                -9 !default;
-$alert-color-level:                 6 !default;
+$alert-bg-level:                    0;
+$alert-border-level:                0;
+$alert-color-level:                 0;
 
 
 // Progress bars

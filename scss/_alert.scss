@@ -1,0 +1,21 @@
+.alert-icon-close {
+  font-size: 0;
+  opacity: 1;
+
+  &:hover .icon svg path {
+    stroke: var(--red);
+  }
+}
+
+.alert-success {
+  color: $body-color;
+  background-color: rgba($success, .25);
+}
+
+.alert-sm {
+  padding: .3999rem .666rem;
+
+  &.alert-dismissible .close {
+    padding: 0.39999rem .666rem;
+  }
+}
