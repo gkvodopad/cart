@@ -69,7 +69,7 @@ $drop-color-inverse: $white;
 }
 
 .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content {
-  margin-bottom: $drop-arrow-size-2;
+  margin-bottom: $drop-arrow-size-2 - 2px;
 }
 
 .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content::before,

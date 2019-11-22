@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="bd243b28-6de4-4931-a9e9-71406bd7a320" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_part/cart/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_part/cart/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart-empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart-empty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart-print.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart-print.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/_drop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_drop.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,22 +37,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="scss" value="1" />
+          <entry key="scss" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="SCSS" value="1" />
+          <entry key="SCSS" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scss" value="2" />
+          <entry key="scss" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="SCSS" value="2" />
+          <entry key="SCSS" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_drop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+            <state relative-caret-position="260">
+              <caret line="262" column="28" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -61,7 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#F3F3F3</find>
       <find>.brdr-mobile</find>
       <find>767676</find>
       <find>Доставка</find>
@@ -91,6 +101,7 @@
       <find>icon</find>
       <find>check_label</find>
       <find>_label</find>
+      <find>$drop-arrow-size-2</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -147,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="drop.sc&#9;FILE&#9;file:///Users/aversan/web/vodopad-html/src/stylesheets/_drop.scss" />
+    <property name="SearchEverywhereHistoryKey" value="drop&#9;FILE&#9;file:///Users/aversan/web/vodopad-html/src/stylesheets/_drop.scss&#10;drop.sc&#9;FILE&#9;file:///Users/aversan/web/vodopad-html/src/stylesheets/_drop.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -184,7 +195,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430000" />
+    <option name="totallyTimeSpent" value="495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1332" extended-state="6" />
@@ -219,8 +230,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/stylesheets/_drop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        <state relative-caret-position="260">
+          <caret line="262" column="28" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="28" />
         </state>
       </provider>
     </entry>
