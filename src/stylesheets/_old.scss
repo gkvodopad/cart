@@ -1219,6 +1219,14 @@
       margin: 0;
       margin-left: 10px;
       cursor: pointer;
+
+      &:hover .icon svg path:nth-child(1) {
+        fill: $body-color;
+      }
+
+      &:hover .icon svg path:nth-child(2) {
+        stroke: $body-color;
+      }
     }
   }
   @include media-breakpoint-down('md') {
