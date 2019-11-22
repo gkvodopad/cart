@@ -2,7 +2,7 @@ $drop-shadow: 0 4px 6px rgba($black, .15);
 $drop-background: $gray-100;
 $drop-color: $body-color;
 $drop-arrow-size: 7px;
-$drop-arrow-size-2: 9px;
+$drop-arrow-size-2: $drop-arrow-size + 2px;
 $drop-radius: $border-radius;
 $drop-border-color: rgba($gray-450, .35);
 
@@ -64,12 +64,12 @@ $drop-color-inverse: $white;
 }
 
 .drop-element.drop-theme-arrows .drop-content::after {
-  border-width: $drop-arrow-size-2 - 2px;
+  border-width: $drop-arrow-size-2;
   z-index: -1;
 }
 
 .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content {
-  margin-bottom: $drop-arrow-size;
+  margin-bottom: $drop-arrow-size-2;
 }
 
 .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content::before,
