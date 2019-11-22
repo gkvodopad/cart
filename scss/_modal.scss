@@ -1,4 +1,10 @@
 .modal-close {
+  opacity: 1;
+
+  &:hover .icon svg path {
+    stroke: red;
+  }
+
   &.position-absolute {
     top: .6rem;
     right: 1.2rem;

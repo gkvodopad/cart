@@ -17,9 +17,8 @@
   justify-content: space-between;
 
   body:not(.not-adaptive) & {
-    @include media-breakpoint-down('sm') {
-      padding-left: 15px;
-      padding-right: 15px;
+    @include media-breakpoint-down('xs') {
+      flex-direction: column;
     }
   }
 }
@@ -242,12 +241,15 @@
       transform: rotate(45deg);
     }
   }
+
   &__edit {
     width: 16px;
     height: 16px;
+
     svg {
       vertical-align: top;
     }
+
     &:hover {
       svg path {
         fill: $body-color;
@@ -255,6 +257,20 @@
     }
 
   }
+
+  &__ok {
+    &:hover {
+      svg circle {
+        stroke: $body-color;
+      }
+
+      svg path {
+        fill: $body-color;
+      }
+    }
+
+  }
+
 }
 
 .baskets-list-next {
@@ -1137,11 +1153,11 @@
       &:after {
         content: '';
         width: 20%;
-        height: 60%;
         display: block;
         position: absolute;
         left: 200px;
-        top: 10%;
+        top: 1px;
+        bottom: 1px;
         background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 92.86%);
       }
       select {
@@ -1322,7 +1338,7 @@
     }
 
     li div:nth-child(1) {
-      width: 87px;
+      //width: 87px;
 
       &:hover {
         cursor: pointer;
@@ -1361,7 +1377,7 @@
 
     li div:nth-child(2) {
       flex: 1 0;
-      border-bottom: 2px dashed #E5E5E5;
+      border-bottom: 1px dashed #E5E5E5;
       height: 1em;
       margin: 0 .4em;
     }

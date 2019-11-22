@@ -1,5 +1,10 @@
 .alert-icon-close {
   font-size: 0;
+  opacity: 1;
+
+  &:hover .icon svg path {
+    stroke: var(--red);
+  }
 }
 
 .alert-success {
