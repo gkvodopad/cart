@@ -1,213 +1,209 @@
 <footer class="footer light-gray-bg">
   <div class="owfh">
     <div class="container">
-      <div class="row">
-        <h2 class="footer-title">Оформление заказа <span>Приморский проспект 173</span></h2>
-      </div>
-      <div class="row">
-        <div class="footer-wrap">
-          <div class="footer-form">
-            <h3 class="footer-form__title">Контактные данные</h3>
-            <form>
-              <div class="footer-form__input-wrap">
-                <label for="form-name">Ваше имя</label>
-                <input id="form-name" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Ваше имя">
-              </div>
-              <div class="footer-form__input-wrap">
-                <label for="form-email">Email</label>
-                <div class="d-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-form" data-position="bottom left" data-open-on="click">
-                  <div class="drop-target">
-                    <input id="form-email" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Email">
-                  </div>
-                  <div class="drop-content">
-                    В адресе <span class="font-weight-medium">alexanderivanovmail.ru</span> отсутствует символ “@”
-                  </div>
-                </div>
-
-              </div>
-              <div class="footer-form__input-wrap">
-                <label for="form-phone">Телефон</label>
-                <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" type="text" placeholder="+7 (___) ___-__-__">
-              </div>
-              <div class="footer-form__input-wrap">
-                <label for="form-card">Карта клиента (если есть)</label>
-                <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-card" type="text">
-              </div>
-              <div class="footer-form__input-wrap">
-                <label for="form-area">Комментарий</label>
-                <textarea class="form-control" id="form-area"></textarea>
-              </div>
-            </form>
-            <div class="brdr-mobile"></div>
-          </div>
-          <div class="ship-pay">
-            <h3 class="ship-pay__title">Способ доставки и оплаты</h3>
-            <div class="type-ship">
-              <div class="type-ship__choose btn-group w-100">
-                <button class="type-ship__choose_btn btn btn-outline-secondary active delivery-js w-50">Доставка</button>
-                <button class="type-ship__choose_btn btn btn-outline-secondary pickup-js w-50">Самовывоз</button>
-              </div>
-              <div class="type-ship-delivery-wrap">
-                <div class="type-ship__input-wrap">
-                  <label for="ship-input">Адрес</label>
-                  <input class="form-control" id="ship-input" placeholder="" type="text" value="Комендантский проспект 172, кв 94">
-                </div>
-                <div class="type-ship__check">
-                  <label class="check">
-                    <input id="type-ship-check" type="checkbox" class="check__input">
-                    <span class="check__box"></span>
-                  </label>
-                  <label class="type-ship__check_label" for="type-ship-check">
-                    Подъем 350 рублей
-                    <span class="icon icon-sm"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.88 9.701c0-.476.059-.856.177-1.139.118-.282.351-.592.698-.929.351-.34.573-.582.666-.725.144-.218.215-.455.215-.709 0-.336-.084-.592-.252-.768-.165-.179-.408-.268-.73-.268-.309 0-.557.087-.747.263-.186.172-.28.406-.28.703H6.322c.007-.633.222-1.135.645-1.504.426-.368.988-.553 1.686-.553.72 0 1.28.183 1.681.548.405.365.607.876.607 1.53 0 .585-.272 1.16-.816 1.725l-.66.65c-.237.268-.359.66-.366 1.176H7.88zm-.091 1.67a.68.68 0 01.198-.51c.133-.132.312-.198.537-.198.23 0 .41.068.543.204.132.132.199.3.199.505a.68.68 0 01-.194.494c-.129.132-.311.199-.548.199-.236 0-.419-.067-.547-.2a.691.691 0 01-.188-.493z" fill="#A0A0A0"/><path d="M16.5 8c0 4.114-3.553 7.5-8 7.5S.5 12.114.5 8 4.053.5 8.5.5s8 3.386 8 7.5z" stroke="#A0A0A0"/></svg></span>
-                  </label>
-                </div>
-              </div>
-              <div class="type-ship-pickup-wrap">
-                <div class="type-ship-pickup">
-                  <div class="d-flex align-items-center">
-                    <div class="type-ship-pickup__title">Магазин</div>
-                    <div class="type-ship-pickup__input-wrap">
-                      <input class="form-control" value="м. Комендантский проспект, пр">
-                    </div>
-                  </div>
-                  <div id="map" class="type-ship-pickup__map"></div>
-                </div>
-              </div>
-              <div class="brdr-mobile"></div>
+      <h2 class="footer-title d-print-none">Оформление заказа <span>Приморский проспект 173</span></h2>
+      <div class="footer-wrap">
+        <div class="footer-form d-print-none">
+          <h3 class="footer-form__title">Контактные данные</h3>
+          <form>
+            <div class="footer-form__input-wrap">
+              <label for="form-name">Ваше имя</label>
+              <input id="form-name" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Ваше имя">
             </div>
-            <div class="type-pay">
-              <div class="type-pay__title">Оплата</div>
-              <div class="type-pay-wrap">
-                <div class="type-pay__input-wrap">
-                  <label class="radio">
-                    <input name="payment" id="cash" type="radio" class="radio__input">
-                    <span class="radio__btn"></span>
-                    <label for="cash">Наличными</label>
-                  </label>
+            <div class="footer-form__input-wrap">
+              <label for="form-email">Email</label>
+              <div class="d-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-form" data-position="bottom left" data-open-on="click">
+                <div class="drop-target">
+                  <input id="form-email" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Email">
                 </div>
-                <div class="type-pay__input-wrap">
-                  <label class="radio">
-                    <input name="payment" id="card-site" type="radio" class="radio__input" checked="checked">
-                    <span class="radio__btn"></span>
-                    <label for="card-site">Картой на сайте</label>
-                  </label>
+                <div class="drop-content">
+                  В адресе <span class="font-weight-medium">alexanderivanovmail.ru</span> отсутствует символ “@”
+                </div>
+              </div>
 
-                </div>
-                <div class="type-pay__input-wrap">
-                  <label class="radio">
-                    <input name="payment" id="card-personally" type="radio" class="radio__input">
-                    <span class="radio__btn"></span>
-                    <label for="card-personally">Картой при получении</label>
-                  </label>
-                </div>
-                <div class="type-pay__input-wrap">
-                  <label class="radio">
-                    <input name="payment" id="score" type="radio" class="radio__input" data-module="agree-checkbox" data-target="#tab-file" data-class="d-none" data-value="requisites">
-                    <span class="radio__btn"></span>
-                    <label for="score">Счетом на оплату</label>
-                  </label>
-                </div>
-                <div class="d-none" id="tab-file">
-                  <div class="form-group pl-4_5 mb-2">
-                    <label class="typo-sm" for="">Прикрепить реквизиты</label>
-                    <div class="custom-file custom-file-sm empty">
-                      <input type="file" class="custom-file-input" id="uploadFile" lang="ru">
-                      <label class="custom-file-label" for="uploadFile">Файл не выбран</label>
-                    </div>
+            </div>
+            <div class="footer-form__input-wrap">
+              <label for="form-phone">Телефон</label>
+              <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" type="text" placeholder="+7 (___) ___-__-__">
+            </div>
+            <div class="footer-form__input-wrap">
+              <label for="form-card">Карта клиента (если есть)</label>
+              <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-card" type="text">
+            </div>
+            <div class="footer-form__input-wrap">
+              <label for="form-area">Комментарий</label>
+              <textarea class="form-control" id="form-area"></textarea>
+            </div>
+          </form>
+          <div class="brdr-mobile"></div>
+        </div>
+        <div class="ship-pay d-print-none">
+          <h3 class="ship-pay__title">Способ доставки и оплаты</h3>
+          <div class="type-ship">
+            <div class="type-ship__choose btn-group w-100">
+              <button class="type-ship__choose_btn btn btn-outline-secondary active delivery-js w-50">Доставка</button>
+              <button class="type-ship__choose_btn btn btn-outline-secondary pickup-js w-50">Самовывоз</button>
+            </div>
+            <div class="type-ship-delivery-wrap">
+              <div class="type-ship__input-wrap">
+                <label for="ship-input">Адрес</label>
+                <input class="form-control" id="ship-input" placeholder="" type="text" value="Комендантский проспект 172, кв 94">
+              </div>
+              <div class="type-ship__check">
+                <label class="check">
+                  <input id="type-ship-check" type="checkbox" class="check__input">
+                  <span class="check__box"></span>
+                </label>
+                <label class="type-ship__check_label" for="type-ship-check">
+                  Подъем 350 рублей
+                  <span class="icon icon-sm"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.88 9.701c0-.476.059-.856.177-1.139.118-.282.351-.592.698-.929.351-.34.573-.582.666-.725.144-.218.215-.455.215-.709 0-.336-.084-.592-.252-.768-.165-.179-.408-.268-.73-.268-.309 0-.557.087-.747.263-.186.172-.28.406-.28.703H6.322c.007-.633.222-1.135.645-1.504.426-.368.988-.553 1.686-.553.72 0 1.28.183 1.681.548.405.365.607.876.607 1.53 0 .585-.272 1.16-.816 1.725l-.66.65c-.237.268-.359.66-.366 1.176H7.88zm-.091 1.67a.68.68 0 01.198-.51c.133-.132.312-.198.537-.198.23 0 .41.068.543.204.132.132.199.3.199.505a.68.68 0 01-.194.494c-.129.132-.311.199-.548.199-.236 0-.419-.067-.547-.2a.691.691 0 01-.188-.493z" fill="#A0A0A0"/><path d="M16.5 8c0 4.114-3.553 7.5-8 7.5S.5 12.114.5 8 4.053.5 8.5.5s8 3.386 8 7.5z" stroke="#A0A0A0"/></svg></span>
+                </label>
+              </div>
+            </div>
+            <div class="type-ship-pickup-wrap">
+              <div class="type-ship-pickup">
+                <div class="d-flex align-items-center">
+                  <div class="type-ship-pickup__title">Магазин</div>
+                  <div class="type-ship-pickup__input-wrap">
+                    <input class="form-control" value="м. Комендантский проспект, пр">
                   </div>
-                  <div class="form-group pl-4_5 mb-2">
-                    <label class="typo-sm" for="">Прикрепить реквизиты</label>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="pl-2 pr-4_5 text-left">rekvizity-firmy.png</div>
-                      </div>
-                      <div class="progress__action"><span class="icon icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
-                    </div>
-                    <div class="form-text typo-sm">Файл успешно загружен </div>
-                  </div>
                 </div>
+                <div id="map" class="type-ship-pickup__map"></div>
               </div>
             </div>
             <div class="brdr-mobile"></div>
           </div>
-          <div class="total">
-            <h3 class="total__title">Итого</h3>
-            <div class="total__info">
-              <ul>
-                <li>
-                  <div class="total__info_text">3 товара</div>
-                  <div></div>
-                  <div>
-                    <span class="prdct-old-prc">14 750 ₽</span>
-                    <span class="total__info_text">19 260 ₽</span>
+          <div class="type-pay">
+            <div class="type-pay__title">Оплата</div>
+            <div class="type-pay-wrap">
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="cash" type="radio" class="radio__input">
+                  <span class="radio__btn"></span>
+                  <label for="cash">Наличными</label>
+                </label>
+              </div>
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="card-site" type="radio" class="radio__input" checked="checked">
+                  <span class="radio__btn"></span>
+                  <label for="card-site">Картой на сайте</label>
+                </label>
+
+              </div>
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="card-personally" type="radio" class="radio__input">
+                  <span class="radio__btn"></span>
+                  <label for="card-personally">Картой при получении</label>
+                </label>
+              </div>
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="score" type="radio" class="radio__input" data-module="agree-checkbox" data-target="#tab-file" data-class="d-none" data-value="requisites">
+                  <span class="radio__btn"></span>
+                  <label for="score">Счетом на оплату</label>
+                </label>
+              </div>
+              <div class="d-none" id="tab-file">
+                <div class="form-group pl-4_5 mb-2">
+                  <label class="typo-sm" for="">Прикрепить реквизиты</label>
+                  <div class="custom-file custom-file-sm empty">
+                    <input type="file" class="custom-file-input" id="uploadFile" lang="ru">
+                    <label class="custom-file-label" for="uploadFile">Файл не выбран</label>
                   </div>
-                </li>
-                <li>
-                  <div class="total__info_text">Доставка</div>
-                  <div></div>
-                  <div>
-                    <span class="total__info_text">Бесплатно</span>
+                </div>
+                <div class="form-group pl-4_5 mb-2">
+                  <label class="typo-sm" for="">Прикрепить реквизиты</label>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="pl-2 pr-4_5 text-left">rekvizity-firmy.png</div>
+                    </div>
+                    <div class="progress__action"><span class="icon icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
                   </div>
-                </li>
-                <li class="mt-n1"><div class="total__info_text typo-sm text-secondary w-100">(до бесплатной доставки осталось: 1254 ₽)</div></li>
-                <li>
-                  <div class="d-flex">
-                    <span class="baskets-list__close"></span>
-                    <span class="total__info_text font-weight-medium">Подъем</span>
-                  </div>
-                  <div></div>
-                  <div class="total__info_right-col">
-                    <span class="total__info_text">350 ₽</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="total__promocode">
-              <div class="input-group" data-module="promocode-input">
-                <input class="form-control js-input" type="text" placeholder="Промокод">
-                <div class="input-group-append">
-                  <button class="btn btn-secondary disabled js-button">Применить</button>
+                  <div class="form-text typo-sm">Файл успешно загружен </div>
                 </div>
               </div>
             </div>
-            <div class="total__info">
-              <ul>
-                <li class="text-success">
-                  <div class="total__info_text text-success">Скидка&nbsp;по&nbsp;промокоду</div>
-                  <div></div>
-                  <div>
-                    <span class="total__info_text text-success">-23 400 ₽</span>
-                  </div>
-                </li>
-                <li class="mt-n1 mb-3">
-                  <div class="alert alert-sm alert-success alert-dismissible fade show w-100 mb-0 alert-sm mb-0" role="alert">
-                    20let - 20 лет Водопаду -20%
-                    <button type="button" class="close alert-icon-close" data-dismiss="alert" aria-label="Close">
-                      <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-                    </button>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="total__price">
-              <div class="total__price_title">К оплате</div>
-              <div class="d-flex align-items-end">
-                <div class="prdct-old-prc">14 750 ₽</div>
-                <div class="total__price_final">26 750 ₽</div>
+          </div>
+          <div class="brdr-mobile"></div>
+        </div>
+        <div class="total">
+          <h3 class="total__title">Итого</h3>
+          <div class="total__info">
+            <ul>
+              <li>
+                <div class="total__info_text">3 товара</div>
+                <div></div>
+                <div>
+                  <span class="prdct-old-prc d-print-none">14 750 ₽</span>
+                  <span class="total__info_text">19 260 ₽</span>
+                </div>
+              </li>
+              <li>
+                <div class="total__info_text">Доставка</div>
+                <div></div>
+                <div>
+                  <span class="total__info_text">Бесплатно</span>
+                </div>
+              </li>
+              <li class="mt-n1 d-print-none"><div class="total__info_text typo-sm text-secondary w-100">(до бесплатной доставки осталось: 1254 ₽)</div></li>
+              <li>
+                <div class="d-flex">
+                  <span class="baskets-list__close d-print-none"></span>
+                  <span class="total__info_text">Подъем</span>
+                </div>
+                <div></div>
+                <div class="total__info_right-col">
+                  <span class="total__info_text">350 ₽</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="total__promocode d-print-none">
+            <div class="input-group" data-module="promocode-input">
+              <input class="form-control js-input" type="text" placeholder="Промокод">
+              <div class="input-group-append">
+                <button class="btn btn-secondary disabled js-button">Применить</button>
               </div>
             </div>
-            <div class="mb-10 total__red-btn">
-              <a href="#" class="is-full-width checkout-red-btn btn-lg btn btn-primary font-weight-medium disabled">Оформить заказ</a>
+          </div>
+          <div class="total__info d-print-none">
+            <ul>
+              <li class="text-success">
+                <div class="total__info_text text-success">Скидка&nbsp;по&nbsp;промокоду</div>
+                <div></div>
+                <div>
+                  <span class="total__info_text text-success">-23 400 ₽</span>
+                </div>
+              </li>
+              <li class="mt-n1 mb-3">
+                <div class="alert alert-sm alert-success alert-dismissible fade show w-100 mb-0 alert-sm mb-0" role="alert">
+                  20let - 20 лет Водопаду -20%
+                  <button type="button" class="close alert-icon-close" data-dismiss="alert" aria-label="Close">
+                    <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="total__price">
+            <div class="total__price_title">К оплате</div>
+            <div class="d-flex align-items-end">
+              <div class="prdct-old-prc d-print-none">14 750 ₽</div>
+              <div class="total__price_final">26 750 ₽</div>
             </div>
-            <label class="total__conf">
+          </div>
+          <div class="mb-10 total__red-btn d-print-none">
+            <a href="#" class="is-full-width checkout-red-btn btn-lg btn btn-primary font-weight-medium disabled">Оформить заказ</a>
+          </div>
+          <label class="total__conf d-print-none">
               <span class="conf__check">
                 <input id="total-conf" type="checkbox" class="conf__check__input" data-module="agree-checkbox" data-target=".checkout-red-btn">
                 <span class="conf__check__box"></span>
               </span>
-              <a class="total__conf-label" href="#" target="_blank">Соглашение о конфиденциальности</a>
-            </label>
-          </div>
+            <a class="total__conf-label" href="#" target="_blank">Соглашение о конфиденциальности</a>
+          </label>
         </div>
       </div>
     </div>

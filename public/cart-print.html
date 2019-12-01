@@ -13,11 +13,11 @@
 
     
   </head>
-  <body class="page-body not-adaptive page-print">
+  <body class="page-body page-cart page-print">
     
 <header class="header">
   <div class="header-head">
-    <div class="container-fluid">
+    <div class="container">
       <div class="header-head__items">
         <a href="" class="header-logo"><img src="images/logo.svg" alt="logo"></a>
         <div class="header-contacts">
@@ -33,22 +33,136 @@
       </div>
     </div>
   </div>
+  <div class="header-bot d-print-none">
+    <div class="container">
+      <div class="row back-shop-wrap">
+        <a href="#" class="back-shop">Вернуться к покупкам</a>
+      </div>
+    </div>
+  </div>
 </header>
 
 
     <div class="page-wrapper">
       
-<div class="bg-light py-3">
+<div class="bg-light py-3 d-none d-print-block">
   <div class="container-fluid">
     <h2 class="text-center mb-0">Приморский 173</h2>
   </div>
 </div>
+
+<div class="d-print-none">
+  <div class="container">
+    <h1 class="main-title">Корзины <span>4</span></h1>
+  </div>
+</div>
+
+<div class="light-gray-bg d-print-none">
+  <div class="container">
+    <div class="row no-gutters flex-nowrap">
+      <div class="col-auto baskets-col-navigation">
+      <div class="baskets-list-scroller">
+  <ul class="baskets-list flex-nowrap">
+    <li>
+      <a href="" class="baskets-list__link" title="Основная">Основная</a>
+      <span class="baskets-list__count">1</span>
+    </li>
+    <li class="basket-active-link">
+      <a href="" class="baskets-list__link w-100" title="Приморский 173">Приморский 173</a>
+      <span class="baskets-list__count">3</span>
+      <div class="baskets-list__actions d-flex align-items-center">
+        <span class="baskets-list__actions-icon icon icon-md baskets-list__edit">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="#767676" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.999983 15.5C0.929427 15.5004 0.859579 15.4859 0.79503 15.4574C0.730482 15.4289 0.672695 15.3871 0.625468 15.3346C0.578241 15.2822 0.542644 15.2204 0.521016 15.1532C0.499389 15.0861 0.492221 15.0151 0.499984 14.945L0.949983 10.86C0.962595 10.7463 1.01377 10.6404 1.09498 10.56L10.635 1.02495C10.8004 0.858508 10.9971 0.726417 11.2138 0.63628C11.4305 0.546144 11.6628 0.499741 11.8975 0.499741C12.1322 0.499741 12.3645 0.546144 12.5812 0.63628C12.7978 0.726417 12.9946 0.858508 13.16 1.02495L15 2.83995C15.1664 3.00538 15.2985 3.20209 15.3887 3.41876C15.4788 3.63543 15.5252 3.86778 15.5252 4.10245C15.5252 4.33712 15.4788 4.56948 15.3887 4.78615C15.2985 5.00282 15.1664 5.19952 15 5.36495L5.43998 14.9C5.3595 14.9812 5.25362 15.0323 5.13998 15.045L1.05498 15.5H0.999983ZM1.92998 11.14L1.56498 14.435L4.85998 14.07L12.5554 6.37042L9.62952 3.44451L1.92998 11.14ZM14.27 4.65495L13.2702 5.65523L10.3447 2.7297L11.345 1.72995C11.4928 1.584 11.6922 1.50216 11.9 1.50216C12.1077 1.50216 12.3071 1.584 12.455 1.72995L14.27 3.54495C14.4159 3.6928 14.4978 3.8922 14.4978 4.09995C14.4978 4.30771 14.4159 4.5071 14.27 4.65495ZM4.73178 10.5598L9.27141 6.02019L9.97851 6.7273L5.43889 11.2669L4.73178 10.5598Z" fill="#A0A0A0"/>
+          </svg>
+        </span>
+        <span class="baskets-list__actions-icon baskets-list__close" data-toggle="modal" data-target="#modal-delete-confirm"></span>
+      </div>
+    </li>
+    <li>
+      <a href="" class="baskets-list__link" title="Выборгская набере">Выборгская набере</a>
+      <span class="baskets-list__count">27</span>
+    </li>
+    <li>
+      <a href="" class="baskets-list__link" title="Приморский 161">Приморский 161</a>
+      <span class="baskets-list__count">4</span>
+    </li>
+  </ul>
+</div>
+
+      </div>
+      <div class="baskets-list-next"><span></span></div>
+      <div class="new-basket-btn-wrap col-auto d-none d-lg-flex justify-content-center">
+        <button class="new-basket-btn"><span></span>Новая корзина</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <main>
   <div class="owfh">
-    <div class="container-fluid">
-      <div class="basket basket_print">
+    <div class="container">
+      <div class="basket-controls d-print-none">
+  <div class="basket-controls__left">
+    <label class="check">
+      <input type="checkbox" class="check__input">
+      <span class="check__box"></span>
+    </label>
+    <div class="basket-controls__btns">
+      <button class="basket-controls__btn btn btn-secondary btn-sm" data-toggle="button">Удалить</button>
+      <button class="basket-controls__btn btn btn-secondary btn-sm" data-toggle="button">Переместить</button>
+    </div>
+  </div>
+  <div class="basket-controls__right">
+    <a href="" class="this-basket-link">Ссылка на эту корзину</a>
+    <div class="icon-basket-link"><a href="" class="print">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0)">
+          <path d="M13.76 7.36C14.1135 7.36 14.4 7.07346 14.4 6.72C14.4 6.36654 14.1135 6.08 13.76 6.08C13.4065 6.08 13.12 6.36654 13.12 6.72C13.12 7.07346 13.4065 7.36 13.76 7.36Z" fill="#767676"/>
+          <path d="M12.8 4.80001V0.320007H3.20001V4.80001" stroke="#767676" stroke-miterlimit="10" stroke-linecap="round"/>
+          <path d="M12.8 9.28V15.68H3.20001V9.28H12.8Z" stroke="#767676" stroke-miterlimit="10" stroke-linecap="round"/>
+          <path d="M3.20001 12.8H0.960007C0.606727 12.8 0.320007 12.5133 0.320007 12.16V5.44C0.320007 5.08672 0.606727 4.8 0.960007 4.8H15.04C15.3933 4.8 15.68 5.08672 15.68 5.44V12.16C15.68 12.5133 15.3933 12.8 15.04 12.8H12.8" stroke="#767676" stroke-miterlimit="10" stroke-linecap="round"/>
+          <path d="M11.2 11.2H4.79999" stroke="#767676" stroke-miterlimit="10" stroke-linecap="round"/>
+          <path d="M9.91999 12.48H4.79999" stroke="#767676" stroke-miterlimit="10" stroke-linecap="round"/>
+          <path d="M11.2 13.76H4.79999" stroke="#767676" stroke-miterlimit="10" stroke-linecap="round"/>
+        </g>
+        <defs>
+          <clipPath id="clip0">
+            <rect width="16" height="16" fill="white"/>
+          </clipPath>
+        </defs>
+      </svg>
+    </a></div>
+    <div class="icon-basket-link"><a href="" class="excel">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.8">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3093 4.0464L12.3968 0.6688L11.8208 0H4.93973C4.016 0 3.2688 0.748267 3.2688 1.67253V3.79787H4.30453L4.304 2.07947C4.30507 1.55947 4.7232 1.13867 5.2416 1.13867L11.1264 1.13333V3.9216C11.1275 4.96 11.9664 5.80053 13.0059 5.80053H15.0427L14.9424 13.8437C14.9408 14.3611 14.5211 14.7787 14.0043 14.7829L5.16693 14.7787C4.69387 14.7787 4.31307 14.3147 4.31093 13.7429V13.0619H3.2736V14.0773C3.2736 15.0971 3.95733 15.9269 4.7968 15.9269L14.3067 15.9248C15.2304 15.9248 15.9797 15.1728 15.9797 14.2507V4.82507L15.3093 4.0464Z" fill="#2C2B2B" fill-opacity="0.8"/>
+          <path d="M10.7856 13.5802H0V3.27945H10.7856V13.5802ZM1.03627 12.5434H9.7472V4.31625H1.03627" fill="#08743B" fill-opacity="0.8"/>
+          <path d="M8.38934 11.1483H6.57334L5.33387 9.39682L4.03254 11.1483H2.20801L4.47147 8.30242L2.64374 5.81229H4.48641L5.34187 7.16589L6.25387 5.81229H8.12907L6.21281 8.30242L8.38934 11.1483Z" fill="#08743B" fill-opacity="0.8"/>
+        </g>
+      </svg>
+    </a></div>
+  </div>
+  <div class="brdr-mobile"></div>
+</div>
+
+      <div class="basket">
         <div class="basket-table">
-  <div class="basket-items__item">
+  <div class="basket-cap d-print-none">
+    <div class="basket-cap__item">Фото</div>
+    <div class="basket-cap__item">Описание</div>
+    <div class="basket-cap__item">Наличие</div>
+    <div class="basket-cap__item">Цена</div>
+    <div class="basket-cap__item">Количество</div>
+    <div class="basket-cap__item">Сумма</div>
+  </div>
+  <div class="basket-items__item" data-label="Аренда">
+    <div class="basket-items__item_default basket-items__item_check d-print-none">
+      <label class="check">
+        <input type="checkbox" class="check__input">
+        <span class="check__box"></span>
+      </label>
+    </div>
     <div class="basket-items__item_default basket-items__item_img">
       <img src="images/img4.png" alt="">
     </div>
@@ -58,19 +172,45 @@
           <div>Смеситель термостатичный Oras Nova для ванны 7446X</div>
           <div class="basket-items__item_description-code">Код товара: <span class="font-weight-medium">30 619 062</span></div>
         </div>
+        <div class="basket-items__item_default basket-items__item_stock d-print-none">
+          <i class="ico m-ico-grn mr-2"><i class="icon icon-check fnt-10"></i></i>В наличии</div>
       </div>
-      <div class="basket-items__item_default basket-items__item_count-wrap">
-        <div class="basket-items__item_count-text typo-sm py-0_5">
-          1 шт.
+      <div class="basket-items__item_default basket-items__item_price-wrap d-print-none">
+        <div class="basket-items__item_price">5 970 ₽</div>
+        <div class="basket-items__item_oldprice">5 880 ₽</div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_count-wrap d-print-none">
+        <div class="d-inline-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-danger" data-position="bottom right" data-open-on="click">
+          <div class="basket-items__item_count drop-target">
+            <div>-</div>
+            <input type="text" value="1">
+            <div>+</div>
+          </div>
+          <div class="drop-content">
+            В данный момент к экспресс доставке доступно <span class="font-weight-medium">5 шт.</span>
+          </div>
         </div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_count-wrap d-none d-print-block">
+        <div class="basket-items__item_count-text typo-sm py-0_5">1 шт.</div>
       </div>
       <div class="basket-items__item_default basket-items__item_allprice-wrap">
         <div class="basket-items__item_allprice">5 970 ₽</div>
+        <div class="basket-items__item_oldprice d-print-none">5 880 ₽</div>
       </div>
+    </div>
+    <div class="basket-items__item_default basket-items__item_close-wrap d-print-none">
+      <a href="" class="basket-items__item_close"></a>
     </div>
     <div class="brdr-mobile-top"></div>
   </div>
   <div class="basket-items__item">
+    <div class="basket-items__item_default basket-items__item_check d-print-none">
+      <label class="check">
+        <input type="checkbox" class="check__input">
+        <span class="check__box"></span>
+      </label>
+    </div>
     <div class="basket-items__item_default basket-items__item_img">
       <img src="images/img4.png" alt="">
     </div>
@@ -80,15 +220,73 @@
           <div>Смеситель термостатичный Oras Nova для ванны 7446X</div>
           <div class="basket-items__item_description-code">Код товара: <span class="font-weight-medium">30 619 062</span></div>
         </div>
+        <div class="basket-items__item_default basket-items__item_stock d-print-none">
+          <i class="ico m-ico-grn mr-2"><i class="icon icon-check fnt-10"></i></i>В наличии</div>
       </div>
-      <div class="basket-items__item_default basket-items__item_count-wrap">
-        <div class="basket-items__item_count-text typo-sm py-0_5">
-          1 шт.
+      <div class="basket-items__item_default basket-items__item_price-wrap d-print-none">
+        <div class="basket-items__item_price">5 970 ₽</div>
+        <div class="basket-items__item_oldprice">5 880 ₽</div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_count-wrap d-print-none">
+        <div class="basket-items__item_count">
+          <div>-</div>
+          <input type="text" value="1">
+          <div>+</div>
         </div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_count-wrap d-none d-print-block">
+        <div class="basket-items__item_count-text typo-sm py-0_5">1 шт.</div>
       </div>
       <div class="basket-items__item_default basket-items__item_allprice-wrap">
         <div class="basket-items__item_allprice">5 970 ₽</div>
+        <div class="basket-items__item_oldprice d-print-none">5 880 ₽</div>
       </div>
+    </div>
+    <div class="basket-items__item_default basket-items__item_close-wrap d-print-none">
+      <a href="" class="basket-items__item_close"></a>
+    </div>
+    <div class="brdr-mobile-top"></div>
+  </div>
+  <div class="basket-items__item">
+    <div class="basket-items__item_default basket-items__item_check d-print-none">
+      <label class="check">
+        <input type="checkbox" class="check__input">
+        <span class="check__box"></span>
+      </label>
+    </div>
+    <div class="basket-items__item_default basket-items__item_img">
+      <img src="images/img4.png" alt="">
+    </div>
+    <div class="basket-items__item-mobile-wrap">
+      <div class="basket-items__item-tablet-wrap">
+        <div class="basket-items__item_default basket-items__item_description">
+          <div>Смеситель термостатичный Oras Nova для ванны 7446X</div>
+          <div class="basket-items__item_description-code">Код товара: <span class="font-weight-medium">30 619 062</span></div>
+        </div>
+        <div class="basket-items__item_default basket-items__item_stock d-print-none">
+          <i class="ico m-ico-grn mr-2"><i class="icon icon-check fnt-10"></i></i>В наличии</div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_price-wrap d-print-none">
+        <div class="basket-items__item_price">5 970 ₽</div>
+        <div class="basket-items__item_oldprice">5 880 ₽</div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_count-wrap d-print-none">
+        <div class="basket-items__item_count">
+          <div>-</div>
+          <input type="text" value="1">
+          <div>+</div>
+        </div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_count-wrap d-none d-print-block">
+        <div class="basket-items__item_count-text typo-sm py-0_5">1 шт.</div>
+      </div>
+      <div class="basket-items__item_default basket-items__item_allprice-wrap">
+        <div class="basket-items__item_allprice">5 970 ₽</div>
+        <div class="basket-items__item_oldprice d-print-none">5 880 ₽</div>
+      </div>
+    </div>
+    <div class="basket-items__item_default basket-items__item_close-wrap d-print-none">
+      <a href="" class="basket-items__item_close"></a>
     </div>
     <div class="brdr-mobile-top"></div>
   </div>
@@ -99,55 +297,305 @@
   </div>
 </main>
 
+
     </div>
     
-<div class="bg-light py-4">
-  <div class="container-fluid">
-    <div class="total">
-      <h3 class="total__title">Итого</h3>
-      <div class="total__info">
-        <ul>
-          <li>
-            <div class="total__info_text">3 товара</div>
-            <div></div>
-            <div>
-              <span class="total__info_text">26 542 ₽</span>
+<footer class="footer light-gray-bg">
+  <div class="owfh">
+    <div class="container">
+      <h2 class="footer-title d-print-none">Оформление заказа <span>Приморский проспект 173</span></h2>
+      <div class="footer-wrap">
+        <div class="footer-form d-print-none">
+          <h3 class="footer-form__title">Контактные данные</h3>
+          <form>
+            <div class="footer-form__input-wrap">
+              <label for="form-name">Ваше имя</label>
+              <input id="form-name" class="form-control footer-form__input-wrap_input success" type="text" placeholder="Ваше имя">
             </div>
-          </li>
-          <li>
-            <div class="total__info_text">Доставка</div>
-            <div></div>
-            <div>
-              <span class="total__info_text">Бесплатно</span>
+            <div class="footer-form__input-wrap">
+              <label for="form-email">Email</label>
+              <div class="d-block js-drop" data-theme="drop-theme-arrows drop-help drop-text-form" data-position="bottom left" data-open-on="click">
+                <div class="drop-target">
+                  <input id="form-email" class="form-control footer-form__input-wrap_input error" type="text" placeholder="Email">
+                </div>
+                <div class="drop-content">
+                  В адресе <span class="font-weight-medium">alexanderivanovmail.ru</span> отсутствует символ “@”
+                </div>
+              </div>
+
             </div>
-          </li>
-          <li>
-            <div class="d-flex">
-              <span class="total__info_text">Подъем</span>
+            <div class="footer-form__input-wrap">
+              <label for="form-phone">Телефон</label>
+              <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-phone" type="text" placeholder="+7 (___) ___-__-__">
             </div>
-            <div></div>
-            <div class="total__info_right-col">
-              <span class="total__info_text">350 ₽</span>
+            <div class="footer-form__input-wrap">
+              <label for="form-card">Карта клиента (если есть)</label>
+              <input class="form-control footer-form__input-wrap_input footer-form__input-wrap_small-input" id="form-card" type="text">
             </div>
-          </li>
-        </ul>
+            <div class="footer-form__input-wrap">
+              <label for="form-area">Комментарий</label>
+              <textarea class="form-control" id="form-area"></textarea>
+            </div>
+          </form>
+          <div class="brdr-mobile"></div>
+        </div>
+        <div class="ship-pay d-print-none">
+          <h3 class="ship-pay__title">Способ доставки и оплаты</h3>
+          <div class="type-ship">
+            <div class="type-ship__choose btn-group w-100">
+              <button class="type-ship__choose_btn btn btn-outline-secondary active delivery-js w-50">Доставка</button>
+              <button class="type-ship__choose_btn btn btn-outline-secondary pickup-js w-50">Самовывоз</button>
+            </div>
+            <div class="type-ship-delivery-wrap">
+              <div class="type-ship__input-wrap">
+                <label for="ship-input">Адрес</label>
+                <input class="form-control" id="ship-input" placeholder="" type="text" value="Комендантский проспект 172, кв 94">
+              </div>
+              <div class="type-ship__check">
+                <label class="check">
+                  <input id="type-ship-check" type="checkbox" class="check__input">
+                  <span class="check__box"></span>
+                </label>
+                <label class="type-ship__check_label" for="type-ship-check">
+                  Подъем 350 рублей
+                  <span class="icon icon-sm"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.88 9.701c0-.476.059-.856.177-1.139.118-.282.351-.592.698-.929.351-.34.573-.582.666-.725.144-.218.215-.455.215-.709 0-.336-.084-.592-.252-.768-.165-.179-.408-.268-.73-.268-.309 0-.557.087-.747.263-.186.172-.28.406-.28.703H6.322c.007-.633.222-1.135.645-1.504.426-.368.988-.553 1.686-.553.72 0 1.28.183 1.681.548.405.365.607.876.607 1.53 0 .585-.272 1.16-.816 1.725l-.66.65c-.237.268-.359.66-.366 1.176H7.88zm-.091 1.67a.68.68 0 01.198-.51c.133-.132.312-.198.537-.198.23 0 .41.068.543.204.132.132.199.3.199.505a.68.68 0 01-.194.494c-.129.132-.311.199-.548.199-.236 0-.419-.067-.547-.2a.691.691 0 01-.188-.493z" fill="#A0A0A0"/><path d="M16.5 8c0 4.114-3.553 7.5-8 7.5S.5 12.114.5 8 4.053.5 8.5.5s8 3.386 8 7.5z" stroke="#A0A0A0"/></svg></span>
+                </label>
+              </div>
+            </div>
+            <div class="type-ship-pickup-wrap">
+              <div class="type-ship-pickup">
+                <div class="d-flex align-items-center">
+                  <div class="type-ship-pickup__title">Магазин</div>
+                  <div class="type-ship-pickup__input-wrap">
+                    <input class="form-control" value="м. Комендантский проспект, пр">
+                  </div>
+                </div>
+                <div id="map" class="type-ship-pickup__map"></div>
+              </div>
+            </div>
+            <div class="brdr-mobile"></div>
+          </div>
+          <div class="type-pay">
+            <div class="type-pay__title">Оплата</div>
+            <div class="type-pay-wrap">
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="cash" type="radio" class="radio__input">
+                  <span class="radio__btn"></span>
+                  <label for="cash">Наличными</label>
+                </label>
+              </div>
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="card-site" type="radio" class="radio__input" checked="checked">
+                  <span class="radio__btn"></span>
+                  <label for="card-site">Картой на сайте</label>
+                </label>
+
+              </div>
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="card-personally" type="radio" class="radio__input">
+                  <span class="radio__btn"></span>
+                  <label for="card-personally">Картой при получении</label>
+                </label>
+              </div>
+              <div class="type-pay__input-wrap">
+                <label class="radio">
+                  <input name="payment" id="score" type="radio" class="radio__input" data-module="agree-checkbox" data-target="#tab-file" data-class="d-none" data-value="requisites">
+                  <span class="radio__btn"></span>
+                  <label for="score">Счетом на оплату</label>
+                </label>
+              </div>
+              <div class="d-none" id="tab-file">
+                <div class="form-group pl-4_5 mb-2">
+                  <label class="typo-sm" for="">Прикрепить реквизиты</label>
+                  <div class="custom-file custom-file-sm empty">
+                    <input type="file" class="custom-file-input" id="uploadFile" lang="ru">
+                    <label class="custom-file-label" for="uploadFile">Файл не выбран</label>
+                  </div>
+                </div>
+                <div class="form-group pl-4_5 mb-2">
+                  <label class="typo-sm" for="">Прикрепить реквизиты</label>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      <div class="pl-2 pr-4_5 text-left">rekvizity-firmy.png</div>
+                    </div>
+                    <div class="progress__action"><span class="icon icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+                  </div>
+                  <div class="form-text typo-sm">Файл успешно загружен </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="brdr-mobile"></div>
+        </div>
+        <div class="total">
+          <h3 class="total__title">Итого</h3>
+          <div class="total__info">
+            <ul>
+              <li>
+                <div class="total__info_text">3 товара</div>
+                <div></div>
+                <div>
+                  <span class="prdct-old-prc d-print-none">14 750 ₽</span>
+                  <span class="total__info_text">19 260 ₽</span>
+                </div>
+              </li>
+              <li>
+                <div class="total__info_text">Доставка</div>
+                <div></div>
+                <div>
+                  <span class="total__info_text">Бесплатно</span>
+                </div>
+              </li>
+              <li class="mt-n1 d-print-none"><div class="total__info_text typo-sm text-secondary w-100">(до бесплатной доставки осталось: 1254 ₽)</div></li>
+              <li>
+                <div class="d-flex">
+                  <span class="baskets-list__close d-print-none"></span>
+                  <span class="total__info_text">Подъем</span>
+                </div>
+                <div></div>
+                <div class="total__info_right-col">
+                  <span class="total__info_text">350 ₽</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="total__promocode d-print-none">
+            <div class="input-group" data-module="promocode-input">
+              <input class="form-control js-input" type="text" placeholder="Промокод">
+              <div class="input-group-append">
+                <button class="btn btn-secondary disabled js-button">Применить</button>
+              </div>
+            </div>
+          </div>
+          <div class="total__info d-print-none">
+            <ul>
+              <li class="text-success">
+                <div class="total__info_text text-success">Скидка&nbsp;по&nbsp;промокоду</div>
+                <div></div>
+                <div>
+                  <span class="total__info_text text-success">-23 400 ₽</span>
+                </div>
+              </li>
+              <li class="mt-n1 mb-3">
+                <div class="alert alert-sm alert-success alert-dismissible fade show w-100 mb-0 alert-sm mb-0" role="alert">
+                  20let - 20 лет Водопаду -20%
+                  <button type="button" class="close alert-icon-close" data-dismiss="alert" aria-label="Close">
+                    <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="total__price">
+            <div class="total__price_title">К оплате</div>
+            <div class="d-flex align-items-end">
+              <div class="prdct-old-prc d-print-none">14 750 ₽</div>
+              <div class="total__price_final">26 750 ₽</div>
+            </div>
+          </div>
+          <div class="mb-10 total__red-btn d-print-none">
+            <a href="#" class="is-full-width checkout-red-btn btn-lg btn btn-primary font-weight-medium disabled">Оформить заказ</a>
+          </div>
+          <label class="total__conf d-print-none">
+              <span class="conf__check">
+                <input id="total-conf" type="checkbox" class="conf__check__input" data-module="agree-checkbox" data-target=".checkout-red-btn">
+                <span class="conf__check__box"></span>
+              </span>
+            <a class="total__conf-label" href="#" target="_blank">Соглашение о конфиденциальности</a>
+          </label>
+        </div>
       </div>
-      <div class="total__price">
-        <div class="total__price_title">К оплате</div>
-        <div class="d-flex align-items-end">
-          <div class="total__price_final">26 750 ₽</div>
+    </div>
+  </div>
+</footer>
+
+
+    
+<div class="modal modal-md fade" id="modal-delete-confirm">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body pl-4 pr-4_75 py-6">
+        <button type="button" class="close modal-close position-absolute" data-dismiss="modal" aria-label="Close">
+          <span class="icon icon-close icon-sm"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4l-8 8M4 4l8 8" stroke="#767676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <h2 class="mb-4_5">Подтверждение удаления</h2>
+        <p class="mb-0">
+          Вы&nbsp;точно хотите удалить корзину &laquo;<span class="font-weight-medium">Приморский 173</span>&raquo; со&nbsp;всеми&nbsp;её&nbsp;товарами?
+        </p>
+        <div class="mt-4_5">
+          <button class="btn btn-primary px-4_5 font-weight-medium"><span class="typo-sm">Удалить</span></button>
+          <button class="btn btn-link btn-link px-4_5 font-weight-medium" data-dismiss="modal"><span class="typo-sm">Отмена</span></button>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-    
-    
+
     
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=d62c1a4b-3385-4467-b170-1e11a5f49c07&lang=ru_RU"></script>
 <script src="js/main.js"></script>
+<script>
+  ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+        center: [55.751574, 37.573856],
+        zoom: 9
+      }, {
+        searchControlProvider: 'yandex#search'
+      }),
+
+      // Создаём макет содержимого.
+      MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+        '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+      ),
+
+      myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+        hintContent: 'Собственный значок метки',
+        balloonContent: 'Это красивая метка'
+      }, {
+        // Опции.
+        // Необходимо указать данный тип макета.
+        iconLayout: 'default#image',
+        // Своё изображение иконки метки.
+        iconImageHref: 'images/geo.svg',
+        // Размеры метки.
+        iconImageSize: [22, 22],
+        // Смещение левого верхнего угла иконки относительно
+        // её "ножки" (точки привязки).
+        iconImageOffset: [-5, -38]
+      }),
+
+      myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
+        hintContent: 'Собственный значок метки с контентом',
+        balloonContent: 'А эта — новогодняя',
+        iconContent: '12'
+      }, {
+        // Опции.
+        // Необходимо указать данный тип макета.
+        iconLayout: 'default#imageWithContent',
+        // Своё изображение иконки метки.
+        iconImageHref: 'images/geo.svg',
+        // Размеры метки.
+        iconImageSize: [22, 22],
+        // Смещение левого верхнего угла иконки относительно
+        // её "ножки" (точки привязки).
+        iconImageOffset: [-24, -24],
+        // Смещение слоя с содержимым относительно слоя с картинкой.
+        iconContentOffset: [15, 15],
+        // Макет содержимого.
+        iconContentLayout: MyIconContentLayout
+      });
+
+    myMap.geoObjects
+      .add(myPlacemark)
+      .add(myPlacemarkWithContent);
+  });
+</script>
 
   </body>
 </html>

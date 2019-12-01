@@ -1,0 +1,21 @@
+.page-print .d-print-block {
+  display: block !important;
+}
+
+.page-print .d-print-none {
+  display: none !important;
+}
+
+.page-cart {
+  &.page-print .footer {
+    padding-top: 1.24969rem !important;
+    padding-bottom: 1.24969rem !important;
+  }
+
+  @media print {
+    & .footer {
+      padding-top: 1.24969rem !important;
+      padding-bottom: 1.24969rem !important;
+    }
+  }
+}
