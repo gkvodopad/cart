@@ -16,4 +16,11 @@
       padding-right: 15px;
     }
   }
+
+  @include media-print() {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }

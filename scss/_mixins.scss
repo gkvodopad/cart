@@ -147,3 +147,13 @@
     }
   }
 }
+
+@mixin media-print() {
+  body.page-print & { // for debug
+    @content;
+  }
+
+  @media print {
+    @content;
+  }
+}
