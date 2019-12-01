@@ -28,14 +28,16 @@ body {
   overflow-x: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media print {
-    min-width: 595px;
-  }
 }
 
 body.page-print {
   min-width: 595px;
+}
+
+@media print {
+  body {
+    min-width: 595px;
+  }
 }
 
 .is-desktop.disable-hover,
