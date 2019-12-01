@@ -6,8 +6,8 @@
 
   body:not(.not-adaptive) & {
     @include media-breakpoint-down('sm') {
-      padding-top: 30px;
-      padding-bottom: 60px;
+      padding-top: 24px;
+      padding-bottom: 14px;
     }
   }
 
